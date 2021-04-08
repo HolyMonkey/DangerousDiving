@@ -16,6 +16,6 @@ public class AnimControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        anim.Play("test1", -1, slider.normalizedValue);
+        anim.Play("pose1", -1, slider.normalizedValue);
     }
 }
