@@ -8,6 +8,7 @@ public class Character : MonoBehaviour
     [SerializeField] private Slider _slider;
     [SerializeField] private float _force;
     [SerializeField] private GameEvent _stageReached;
+    [SerializeField] private GameEvent _stageFinished;
     [SerializeField] private Transform _dolly;
 
     private bool _isMove;
@@ -15,6 +16,8 @@ public class Character : MonoBehaviour
     private Animator _animator;
     private Vector3 _savedVelocity;
     private bool _isStage;
+    private string _currentStageAnimationName;
+    private string _currentDollyAnimationName;
 
     private void Start()
     {
@@ -25,7 +28,18 @@ public class Character : MonoBehaviour
     private void Update()
     {
         if (_isStage)
-            _animator.Play("translateOne", -1, _slider.normalizedValue);
+        {
+            if (_slider.value == _slider.maxValue)
+            {
+                _slider.interactable = false;
+                _stageFinished.Raise();
+                EndInteract();
+            }
+            else
+            { 
+                _animator.Play(_currentStageAnimationName, -1, _slider.value);
+            }
+        }
     }
 
     private void FixedUpdate()
@@ -56,17 +70,31 @@ public class Character : MonoBehaviour
         }
         else if (other.TryGetComponent(out Stage stage))
         {
+            _currentStageAnimationName = stage.StageAnimationName;
+            _currentDollyAnimationName = stage.DollyAnimationName;
+            stage.Hide();
             StartInteract();
         }
     }
 
+    #region Decomposite
+
     private void StartInteract()
     {
         Pause();
-        _dolly.position = transform.position;
-        _stageReached.Raise();
-        _animator.speed = 0;
         _isStage = true;
+        _stageReached.Raise();
+        _slider.interactable = true;
+        ShowDolly();
+        _animator.speed = 0;
+    }
+
+    public void EndInteract()
+    {
+        _isStage = false;
+        Resume();
+        HideDolly();
+        _animator.speed = 1;
     }
 
     private void Pause()
@@ -80,4 +108,17 @@ public class Character : MonoBehaviour
         _rigidbody.isKinematic = false;
         _rigidbody.AddForce(_savedVelocity, ForceMode.VelocityChange);
     }
+
+    private void ShowDolly()
+    {
+        _dolly.gameObject.SetActive(true);
+        _dolly.position = transform.position;
+        _dolly.GetComponent<Dolly>().PlayAnimation(_currentDollyAnimationName);
+    }
+
+    private void HideDolly()
+    {
+        _dolly.gameObject.SetActive(false);
+    }
+    #endregion
 }
