@@ -92,7 +92,6 @@ public class Character : MonoBehaviour
     public void EndInteract()
     {
         _isStage = false;
-        Resume();
         HideDolly();
         _animator.speed = 1;
         _animator.Play(_currentDollyAnimationName);
@@ -104,7 +103,7 @@ public class Character : MonoBehaviour
         _rigidbody.isKinematic = true;
     }
 
-    private void Resume()
+    public void Resume()
     {
         _rigidbody.isKinematic = false;
         _rigidbody.AddForce(_savedVelocity, ForceMode.VelocityChange);

@@ -3,12 +3,7 @@
 [RequireComponent(typeof(Animator))]
 public class Dolly : MonoBehaviour
 {
-    private Animator _animator;
-
-    private void Start()
-    {
-        _animator = GetComponent<Animator>();
-    }
+    [SerializeField] private Animator _animator;
 
     public void PlayAnimation(string name)
     {

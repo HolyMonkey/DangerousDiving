@@ -7,9 +7,19 @@ public class CameraMover : MonoBehaviour
     [SerializeField] private float _offsetY;
     [SerializeField] private float _speed;
     [SerializeField] private Vector2 _closePoint;
+    [SerializeField] private GameEvent _cameraReady;
 
     private float _smoothSpeed = 0.2f;
     private bool _ismove = true;
+    private Vector3 _currentPoint;
+
+    private enum Direction
+    { 
+        ZoomIn,
+        ZoomOut
+    }
+
+    private Direction _currentDirection;
 
     private void FixedUpdate()
     {
@@ -23,9 +33,17 @@ public class CameraMover : MonoBehaviour
 
     public void OnReachStage()
     {
+        _currentPoint = transform.position;
         Vector3 target = new Vector3(_closePoint.x, _character.transform.position.y + _offsetY, _closePoint.y);
         _ismove = false;
+        _currentDirection = Direction.ZoomIn;
         StartCoroutine(Flyer(target));
+    }
+
+    public void OnStageFinish()
+    {
+        _currentDirection = Direction.ZoomOut;
+        StartCoroutine(Flyer(_currentPoint));
     }
 
     private IEnumerator Flyer(Vector3 target)
@@ -35,6 +53,13 @@ public class CameraMover : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, target, _speed * Time.deltaTime);
             transform.LookAt(_character);
             yield return null;
+        }
+        transform.position = target;
+
+        if (_currentDirection == Direction.ZoomOut)
+        { 
+            _cameraReady.Raise();
+            _ismove = true;
         }
     }
 }

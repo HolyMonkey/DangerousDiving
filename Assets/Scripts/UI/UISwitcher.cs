@@ -23,16 +23,15 @@ public class UISwitcher : MonoBehaviour
 
     public void OnStageReached()
     {
-        //_slider.gameObject.SetActive(true);
         _sliderComponent.interactable = true;
-        _slider.DOScale(Vector3.one, .5f);
+        _slider.DOScale(Vector3.one, .3f).SetEase(Ease.OutBack);
     }
 
     public void OnStageFinish()
     {
         _sliderComponent.interactable = false;
         _sliderComponent.value = 0;
-        _slider.DOScale(Vector3.zero, .5f);
+        _slider.DOScale(Vector3.zero, .3f).SetEase(Ease.InBack);
     }
 }
 
