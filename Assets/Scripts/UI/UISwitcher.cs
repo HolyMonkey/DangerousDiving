@@ -8,6 +8,13 @@ public class UISwitcher : MonoBehaviour
     [SerializeField] private GameEvent _levelStart;
     [SerializeField] private RectTransform _slider;
 
+    private Slider _sliderComponent;
+
+    private void Start()
+    {
+        _sliderComponent = _slider.GetComponent<Slider>();
+    }
+
     public void OnStartButtonClick()
     {
         _startButton.gameObject.SetActive(false);
@@ -17,13 +24,15 @@ public class UISwitcher : MonoBehaviour
     public void OnStageReached()
     {
         //_slider.gameObject.SetActive(true);
-        //_slider.DOScale(Vector3.zero, .5f).From();
+        _sliderComponent.interactable = true;
+        _slider.DOScale(Vector3.one, .5f);
     }
 
     public void OnStageFinish()
     {
-        //_slider.DOScale(Vector3.zero, .5f);
-        _slider.GetComponent<Slider>().value = 0;
+        _sliderComponent.interactable = false;
+        _sliderComponent.value = 0;
+        _slider.DOScale(Vector3.zero, .5f);
     }
 }
 

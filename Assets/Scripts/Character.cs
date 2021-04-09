@@ -95,6 +95,7 @@ public class Character : MonoBehaviour
         Resume();
         HideDolly();
         _animator.speed = 1;
+        _animator.Play(_currentDollyAnimationName);
     }
 
     private void Pause()
