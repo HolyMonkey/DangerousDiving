@@ -1,0 +1,43 @@
+----------------------------------------
+-------Liquid Mesh FX-------------------
+----------------------------------------
+
+To use the effects, simply import the asset to your project.
+The effect prefabs can be dragged and dropped into the scene, or spawned with a script.
+
+You are free to reference or re-purpose any of the included scripts for your games or projects.
+
+----------------------------------------
+-------Scaling Effects------------------
+----------------------------------------
+
+To scale an effect, e.g. 'ExplosionGlowy', follow the following steps. Scaling can be a little bit different from effect to effect.
+Let's try to scale it up to 2 times it's size! In between steps you can press 'Simulate' in the Scene window to test and see how the effect has been changed.
+
+1. Start off with placing the prefab into the scene, then select it in the Hierarchy.
+2. Find the Transform component in the Inspector, and set the Scale to 2 in X,Y & Z.
+
+The rest of the steps will need to be set in the Particle System component.
+
+3. Multiply the Gravity Modifier by 2. In this particular case, the Gravity Modifier will be set to 4.
+4. Certain child particle systems like Glow will also need to have it's Gravity Modifier multiplied.
+5. In some cases you may also want to adjust the Start Speed
+
+Attached Point Lights and Audio Sources will need to be adjusted accordingly.
+
+----------------------------------------
+-------F.A.Q----------------------------
+----------------------------------------
+
+Q: I'm getting a lot of "AABB" errors when testing the demo or importing the effects to my project.
+
+A: This happens in Unity 5.3, and can be fixed by updating to 5.3.1p2 or later versions.
+
+----------------------------------------
+
+Particle effects, sprites and design by Kenneth Foldal Moe (@Archanor)
+Also many thanks to Jan Jørgensen, Julius Lyngby Forsberg & Agamand!
+
+Feedback and questions can be sent to: archanor.work@gmail.com
+
+If you like this asset, please rate and review it at the Asset Store!

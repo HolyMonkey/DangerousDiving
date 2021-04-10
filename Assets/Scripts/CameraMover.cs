@@ -12,6 +12,7 @@ public class CameraMover : MonoBehaviour
     private float _smoothSpeed = 0.2f;
     private bool _ismove = true;
     private Vector3 _currentPoint;
+    private Vector3 _originPosition;
 
     private enum Direction
     { 
@@ -20,6 +21,11 @@ public class CameraMover : MonoBehaviour
     }
 
     private Direction _currentDirection;
+
+    private void Start()
+    {
+        _originPosition = transform.position;
+    }
 
     private void FixedUpdate()
     {
@@ -61,5 +67,17 @@ public class CameraMover : MonoBehaviour
             _cameraReady.Raise();
             _ismove = true;
         }
+    }
+
+    public void OnCharacterWaterEnter()
+    {
+        _ismove = false;
+    }
+
+    public void OnLevelFinish()
+    {
+        transform.position = _originPosition;
+        transform.LookAt(_character);
+        _ismove = true;
     }
 }

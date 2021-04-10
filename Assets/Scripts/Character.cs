@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 [RequireComponent(typeof(Rigidbody))]
 public class Character : MonoBehaviour
@@ -9,7 +10,9 @@ public class Character : MonoBehaviour
     [SerializeField] private float _force;
     [SerializeField] private GameEvent _stageReached;
     [SerializeField] private GameEvent _stageFinished;
+    [SerializeField] private GameEvent _waterEnter;
     [SerializeField] private Transform _dolly;
+    [SerializeField] private Game _game;
 
     private bool _isMove;
     private Rigidbody _rigidbody;
@@ -18,11 +21,13 @@ public class Character : MonoBehaviour
     private bool _isStage;
     private string _currentStageAnimationName;
     private string _currentDollyAnimationName;
+    private Vector3 _originPosition;
 
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
         _animator = GetComponent<Animator>();
+        _originPosition = transform.position;
     }
 
     private void Update()
@@ -48,7 +53,7 @@ public class Character : MonoBehaviour
             Move();
     }
 
-    public void OnlevelStart()
+    public void OnStartJump()
     {
         _isMove = true;
         _animator.SetTrigger("Run");
@@ -70,11 +75,31 @@ public class Character : MonoBehaviour
         }
         else if (other.TryGetComponent(out Stage stage))
         {
-            _currentStageAnimationName = stage.StageAnimationName;
-            _currentDollyAnimationName = stage.DollyAnimationName;
-            stage.Hide();
-            StartInteract();
+            if (_game.GameMode == Mode.Play)
+            {
+                _currentStageAnimationName = stage.StageAnimationName;
+                _currentDollyAnimationName = stage.DollyAnimationName;
+                stage.Hide();
+                StartInteract();
+            }
+            else if (_game.GameMode == Mode.Repeat)
+            {
+                Debug.Log(_currentDollyAnimationName);
+            }
         }
+        else if (other.TryGetComponent(out Water water))
+        {
+            ResetGame();
+        }
+    }
+
+    private void ResetGame()
+    {
+        _waterEnter.Raise();
+        _isMove = false;
+        _rigidbody.velocity = Vector3.zero;
+        transform.position = _originPosition;
+        _animator.SetTrigger("Reset");
     }
 
     #region Decomposite
