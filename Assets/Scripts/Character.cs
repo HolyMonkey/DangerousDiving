@@ -84,7 +84,7 @@ public class Character : MonoBehaviour
             }
             else if (_game.GameMode == Mode.Repeat)
             {
-                Debug.Log(_currentDollyAnimationName);
+                _animator.SetTrigger(stage.RepeatTriggerName);
             }
         }
         else if (other.TryGetComponent(out Water water))

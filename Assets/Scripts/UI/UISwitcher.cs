@@ -9,6 +9,7 @@ public class UISwitcher : MonoBehaviour
     [SerializeField] private RectTransform _slider;
     [SerializeField] private GameObject _waterenterPanel;
     [SerializeField] private GameObject _finishPanell;
+    [SerializeField] private GameObject _repeatPanel;
     [SerializeField] private Game _game;
 
     private Slider _sliderComponent;
@@ -42,7 +43,15 @@ public class UISwitcher : MonoBehaviour
         if (_game.GameMode == Mode.Play)
             _waterenterPanel.SetActive(true);
         else if (_game.GameMode == Mode.Repeat)
+        { 
             _finishPanell.SetActive(true);
+            _repeatPanel.SetActive(false);
+        }
+    }
+
+    public void OnRepeatStart()
+    {
+        _repeatPanel.SetActive(true);
     }
 }
 

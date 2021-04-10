@@ -7,6 +7,7 @@ public class Game : MonoBehaviour
     [SerializeField] private Character _character;
     [SerializeField] private Stages _stages;
     [SerializeField] private GameEvent _startJump;
+    [SerializeField] private GameEvent _repeatStarted;
 
     private Mode _gameMode = Mode.Play;
 
@@ -29,8 +30,10 @@ public class Game : MonoBehaviour
         if (GameMode == Mode.Repeat)
             return;
 
+        _waterEnter.gameObject.SetActive(false);
         _gameMode = Mode.Repeat;
         _startJump.Raise();
+        _repeatStarted.Raise();
     }
 }
 
