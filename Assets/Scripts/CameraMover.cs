@@ -9,7 +9,7 @@ public class CameraMover : MonoBehaviour
     [SerializeField] private Vector2 _closePoint;
     [SerializeField] private GameEvent _cameraReady;
 
-    private float _smoothSpeed = 0.2f;
+    private float _smoothSpeed = 0.5f;
     private bool _ismove = true;
     private Vector3 _currentPoint;
     private Vector3 _originPosition;
