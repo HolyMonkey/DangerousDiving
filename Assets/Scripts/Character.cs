@@ -22,6 +22,7 @@ public class Character : MonoBehaviour
     private bool _isStage;
     private string _currentStageAnimationName;
     private string _currentDollyAnimationName;
+    private string _currentTriggerName;
     private Vector3 _originPosition;
 
     private void Start()
@@ -35,6 +36,28 @@ public class Character : MonoBehaviour
     {
         if (_isStage)
         {
+            _animator.SetTrigger(_currentTriggerName);
+
+            float spread = 0.05f;
+
+            float horizontal = _joytick.Horizontal;
+            float vertical = _joytick.Vertical;
+
+            
+            
+            if (horizontal > (0.6f - spread) && vertical > (0.8f - spread))
+            {
+                _animator.SetTrigger("StageExit");
+                _stageFinished.Raise();
+                EndInteract();
+            }
+
+            _animator.SetFloat("BlendX", horizontal);
+            _animator.SetFloat("BlendY", vertical);
+
+            //_animator.Play("Trans1", -1, _slider.value);
+
+            /*
             if (_slider.value == _slider.maxValue)
             {
                 _slider.interactable = false;
@@ -45,6 +68,7 @@ public class Character : MonoBehaviour
             { 
                 _animator.Play(_currentStageAnimationName, -1, _slider.value);
             }
+            */
         }
     }
 
@@ -80,6 +104,8 @@ public class Character : MonoBehaviour
             {
                 _currentStageAnimationName = stage.StageAnimationName;
                 _currentDollyAnimationName = stage.DollyAnimationName;
+                _currentTriggerName = stage.RepeatTriggerName;
+                _animator.ResetTrigger("StageExit");
                 stage.Hide();
                 StartInteract();
             }
@@ -112,14 +138,14 @@ public class Character : MonoBehaviour
         _stageReached.Raise();
         _slider.interactable = true;
         ShowDolly();
-        _animator.speed = 0;
+        //_animator.speed = 0;
     }
 
     public void EndInteract()
     {
         _isStage = false;
         HideDolly();
-        _animator.speed = 1;
+        //_animator.speed = 1;
         _animator.Play(_currentDollyAnimationName);
     }
 
