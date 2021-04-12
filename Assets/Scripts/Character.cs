@@ -7,6 +7,7 @@ public class Character : MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private Slider _slider;
+    [SerializeField] private FixedJoystick _joytick;
     [SerializeField] private float _force;
     [SerializeField] private GameEvent _stageReached;
     [SerializeField] private GameEvent _stageFinished;
