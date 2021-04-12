@@ -7,6 +7,7 @@ public class UISwitcher : MonoBehaviour
     [SerializeField] private Button _startButton;
     [SerializeField] private GameEvent _startJump;
     [SerializeField] private RectTransform _slider;
+    [SerializeField] private RectTransform _joystick;
     [SerializeField] private GameObject _waterenterPanel;
     [SerializeField] private GameObject _finishPanell;
     [SerializeField] private GameObject _repeatPanel;
@@ -16,7 +17,7 @@ public class UISwitcher : MonoBehaviour
 
     private void Start()
     {
-        _sliderComponent = _slider.GetComponent<Slider>();
+        //_sliderComponent = _slider.GetComponent<Slider>();
     }
 
     public void OnStartButtonClick()
@@ -27,15 +28,17 @@ public class UISwitcher : MonoBehaviour
 
     public void OnStageReached()
     {
-        _sliderComponent.interactable = true;
-        _slider.DOScale(Vector3.one, .3f).SetEase(Ease.OutBack);
+        //_sliderComponent.interactable = true;
+        //_slider.DOScale(Vector3.one, .3f).SetEase(Ease.OutBack);
+        _joystick.DOScale(Vector3.one, .3f).SetEase(Ease.OutBack);
     }
 
     public void OnStageFinish()
     {
-        _sliderComponent.interactable = false;
-        _sliderComponent.value = 0;
-        _slider.DOScale(Vector3.zero, .3f).SetEase(Ease.InBack);
+        //_sliderComponent.interactable = false;
+        //_sliderComponent.value = 0;
+        //_slider.DOScale(Vector3.zero, .3f).SetEase(Ease.InBack);
+        _joystick.DOScale(Vector3.zero, .3f).SetEase(Ease.InBack);
     }
 
     public void OnWaterEnter()

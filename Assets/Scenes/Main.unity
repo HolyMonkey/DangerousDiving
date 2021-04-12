@@ -3507,12 +3507,12 @@ PrefabInstance:
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _joystickValues.x
-      value: -0.6
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _joystickValues.y
-      value: 0.6
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
@@ -3644,6 +3644,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2034407063}
     m_Modifications:
+    - target: {fileID: 2929252283123773937, guid: aaa2c939c0359ac4dbce3f49e8b90252,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.7391076
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929252283123773937, guid: aaa2c939c0359ac4dbce3f49e8b90252,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929252283123773937, guid: aaa2c939c0359ac4dbce3f49e8b90252,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
       propertyPath: m_Pivot.x
@@ -3682,12 +3697,27 @@ PrefabInstance:
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 168.36292
+      value: 171.93073
       objectReference: {fileID: 0}
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 168.36292
+      value: 171.93073
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
@@ -3727,12 +3757,12 @@ PrefabInstance:
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 559
+      value: 560.8
       objectReference: {fileID: 0}
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 240.84
+      value: 242.66
       objectReference: {fileID: 0}
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
@@ -3788,6 +3818,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929252285020698103, guid: aaa2c939c0359ac4dbce3f49e8b90252,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.3608118
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929252285020698103, guid: aaa2c939c0359ac4dbce3f49e8b90252,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.07058823
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929252285020698103, guid: aaa2c939c0359ac4dbce3f49e8b90252,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
@@ -4431,6 +4476,7 @@ MonoBehaviour:
   _startButton: {fileID: 294783701}
   _startJump: {fileID: 11400000, guid: 94c4d0a5158271d4ba4b1a0aaf4e6f42, type: 2}
   _slider: {fileID: 1294798660}
+  _joystick: {fileID: 1840739120}
   _waterenterPanel: {fileID: 972119681}
   _finishPanell: {fileID: 593000720}
   _repeatPanel: {fileID: 1919609194}
@@ -4445,12 +4491,12 @@ PrefabInstance:
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _joystickValues.x
-      value: 0.8
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _joystickValues.y
-      value: 0.4
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
@@ -4755,12 +4801,12 @@ PrefabInstance:
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _joystickValues.x
-      value: 0.6
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _joystickValues.y
-      value: 0.8
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
