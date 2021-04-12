@@ -20,9 +20,7 @@ public class Character : MonoBehaviour
     private Animator _animator;
     private Vector3 _savedVelocity;
     private bool _isStage;
-    private string _currentStageAnimationName;
-    private string _currentDollyAnimationName;
-    private string _currentTriggerName;
+    private Stage _currentStage;
     private Vector3 _originPosition;
 
     private void Start()
@@ -36,39 +34,24 @@ public class Character : MonoBehaviour
     {
         if (_isStage)
         {
-            _animator.SetTrigger(_currentTriggerName);
+            _animator.SetTrigger("StageEnter");
 
             float spread = 0.05f;
 
             float horizontal = _joytick.Horizontal;
             float vertical = _joytick.Vertical;
 
-            
-            
-            if (horizontal > (0.6f - spread) && vertical > (0.8f - spread))
+            if (horizontal > (_currentStage.JoyStickValues.x - spread) && vertical > (_currentStage.JoyStickValues.y - spread))
             {
-                _animator.SetTrigger("StageExit");
+                horizontal = 0;
+                vertical = 0;
+
                 _stageFinished.Raise();
                 EndInteract();
             }
 
             _animator.SetFloat("BlendX", horizontal);
             _animator.SetFloat("BlendY", vertical);
-
-            //_animator.Play("Trans1", -1, _slider.value);
-
-            /*
-            if (_slider.value == _slider.maxValue)
-            {
-                _slider.interactable = false;
-                _stageFinished.Raise();
-                EndInteract();
-            }
-            else
-            { 
-                _animator.Play(_currentStageAnimationName, -1, _slider.value);
-            }
-            */
         }
     }
 
@@ -100,18 +83,16 @@ public class Character : MonoBehaviour
         }
         else if (other.TryGetComponent(out Stage stage))
         {
+            _currentStage = stage;
+
             if (_game.GameMode == Mode.Play)
             {
-                _currentStageAnimationName = stage.StageAnimationName;
-                _currentDollyAnimationName = stage.DollyAnimationName;
-                _currentTriggerName = stage.RepeatTriggerName;
-                _animator.ResetTrigger("StageExit");
                 stage.Hide();
                 StartInteract();
             }
             else if (_game.GameMode == Mode.Repeat)
             {
-                _animator.SetTrigger(stage.RepeatTriggerName);
+                _animator.SetTrigger("Repeat");
             }
         }
         else if (other.TryGetComponent(out Water water))
@@ -127,6 +108,7 @@ public class Character : MonoBehaviour
         _rigidbody.velocity = Vector3.zero;
         transform.position = _originPosition;
         _animator.SetTrigger("Reset");
+        _animator.ResetTrigger("StageEnter");
     }
 
     #region Decomposite
@@ -138,15 +120,13 @@ public class Character : MonoBehaviour
         _stageReached.Raise();
         _slider.interactable = true;
         ShowDolly();
-        //_animator.speed = 0;
     }
 
     public void EndInteract()
     {
         _isStage = false;
         HideDolly();
-        //_animator.speed = 1;
-        _animator.Play(_currentDollyAnimationName);
+        _animator.Play(_currentStage.DollyAnimationName);
     }
 
     private void Pause()
@@ -165,7 +145,7 @@ public class Character : MonoBehaviour
     {
         _dolly.gameObject.SetActive(true);
         _dolly.position = transform.position;
-        _dolly.GetComponent<Dolly>().PlayAnimation(_currentDollyAnimationName);
+        _dolly.GetComponent<Dolly>().PlayAnimation(_currentStage.DollyAnimationName);
     }
 
     private void HideDolly()

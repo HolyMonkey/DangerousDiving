@@ -3506,6 +3506,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
+      propertyPath: _joystickValues.x
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
+        type: 3}
+      propertyPath: _joystickValues.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
+        type: 3}
       propertyPath: _repeatTriggerName
       value: Two
       objectReference: {fileID: 0}
@@ -3749,6 +3759,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252,
+        type: 3}
+      propertyPath: snapX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252,
+        type: 3}
+      propertyPath: snapY
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2929252285020697096, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -3762,12 +3782,12 @@ PrefabInstance:
     - target: {fileID: 2929252285020697096, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.000013351
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2929252285020697096, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.0000076294
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
@@ -4424,6 +4444,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
+      propertyPath: _joystickValues.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
+        type: 3}
+      propertyPath: _joystickValues.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
+        type: 3}
       propertyPath: _repeatTriggerName
       value: Three
       objectReference: {fileID: 0}
@@ -4722,6 +4752,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1664566537}
     m_Modifications:
+    - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
+        type: 3}
+      propertyPath: _joystickValues.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
+        type: 3}
+      propertyPath: _joystickValues.y
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _repeatTriggerName
