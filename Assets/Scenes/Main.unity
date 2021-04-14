@@ -1659,6 +1659,130 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1001 &211433003
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1087258871}
+    m_Modifications:
+    - target: {fileID: 7499376668098937557, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: m_Name
+      value: Wind
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937562, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937562, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937562, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937562, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937562, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937562, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937562, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937562, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937562, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937562, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937562, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937563, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937563, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937563, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937563, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: startDelay.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937563, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: startDelay.minScalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937563, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: ShapeModule.m_Scale.x
+      value: 2.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937563, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: ShapeModule.m_Scale.y
+      value: 2.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937563, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: startDelay.minMaxState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937563, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937563, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499376668098937563, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 0.4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf, type: 3}
 --- !u!1 &263835265 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 964287678237570482, guid: 8945d4178d54c7640b930d4e2d89970e,
@@ -3981,6 +4105,10 @@ PrefabInstance:
       propertyPath: _game
       value: 
       objectReference: {fileID: 2129423703}
+    - target: {fileID: 1087258872, guid: 060c0afbfb073a14185cf2aba16e029e, type: 3}
+      propertyPath: _wind
+      value: 
+      objectReference: {fileID: 1957068533}
     - target: {fileID: 1087258872, guid: 060c0afbfb073a14185cf2aba16e029e, type: 3}
       propertyPath: _dolly
       value: 
@@ -6325,6 +6453,12 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 807fbaee4bde7e84db03b42bb732c8ba, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3c43e8b68742154d9b9b3990c55f7e6, type: 3}
+--- !u!198 &1957068533 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7499376668098937563, guid: 7e3c2a37a3af5b64c85b74ae9068bdbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 211433003}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1963258859 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2535899748712966444, guid: b80ddb154cfa687439e705df12e5d38a,

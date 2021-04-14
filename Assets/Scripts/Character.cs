@@ -14,6 +14,7 @@ public class Character : MonoBehaviour
     [SerializeField] private GameEvent _waterEnter;
     [SerializeField] private Transform _dolly;
     [SerializeField] private Game _game;
+    [SerializeField] private ParticleSystem _wind;
 
     private bool _isMove;
     private Rigidbody _rigidbody;
@@ -93,6 +94,7 @@ public class Character : MonoBehaviour
             else if (_game.GameMode == Mode.Repeat)
             {
                 _animator.SetTrigger("Repeat");
+                _wind.Play();
             }
         }
         else if (other.TryGetComponent(out Water water))
@@ -109,6 +111,7 @@ public class Character : MonoBehaviour
         transform.position = _originPosition;
         _animator.SetTrigger("Reset");
         _animator.ResetTrigger("StageEnter");
+        _wind.Stop();
     }
 
     #region Decomposite
@@ -120,6 +123,7 @@ public class Character : MonoBehaviour
         _stageReached.Raise();
         _slider.interactable = true;
         ShowDolly();
+        _wind.Stop();
     }
 
     public void EndInteract()
@@ -127,6 +131,7 @@ public class Character : MonoBehaviour
         _isStage = false;
         HideDolly();
         _animator.Play(_currentStage.DollyAnimationName);
+        _wind.Play();
     }
 
     private void Pause()
