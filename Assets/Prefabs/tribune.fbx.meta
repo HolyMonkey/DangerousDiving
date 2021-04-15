@@ -3,7 +3,12 @@ guid: ad79794db0e879d4da97b202acb15017
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tribune3
+    second: {fileID: 2100000, guid: 9fede11f7c31adf42a5383d92685b6d7, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
