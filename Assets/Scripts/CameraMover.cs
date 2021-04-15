@@ -80,4 +80,9 @@ public class CameraMover : MonoBehaviour
         transform.LookAt(_character);
         _ismove = true;
     }
+
+    public void OnRepeatStart()
+    {
+        transform.position -= Vector3.one * 3f; ;
+    }
 }

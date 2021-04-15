@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -16,6 +18,7 @@ public class Character : MonoBehaviour
     [SerializeField] private Game _game;
     [SerializeField] private ParticleSystem _wind;
     [SerializeField] private Effects _effects;
+    [SerializeField] private Volume _volume;
 
     private bool _isMove;
     private Rigidbody _rigidbody;
@@ -24,12 +27,16 @@ public class Character : MonoBehaviour
     private bool _isStage;
     private Stage _currentStage;
     private Vector3 _originPosition;
+    
+    private FilmGrain _grain;
 
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
         _animator = GetComponent<Animator>();
         _originPosition = transform.position;
+
+        _volume.profile.TryGet<FilmGrain>(out _grain);
     }
 
     private void Update()
@@ -49,8 +56,7 @@ public class Character : MonoBehaviour
                 vertical = 0;
 
                 _stageFinished.Raise();
-                _effects.PoseSetup(_currentStage.Index); // delay needed
-                //StartCoroutine(PlayEffgects(_effects));
+                _effects.PoseSetup(_currentStage.Index); 
 
                 EndInteract();
             }
@@ -58,16 +64,6 @@ public class Character : MonoBehaviour
             _animator.SetFloat("BlendX", horizontal);
             _animator.SetFloat("BlendY", vertical);
         }
-    }
-
-    private IEnumerator PlayEffgects(Effects effects)
-    {
-        while (effects.IsPlaying) 
-        {
-            yield return null;
-        }
-
-        EndInteract();
     }
 
     private void FixedUpdate()
@@ -127,6 +123,13 @@ public class Character : MonoBehaviour
         _animator.SetTrigger("Reset");
         _animator.ResetTrigger("StageEnter");
         _wind.Stop();
+    }
+
+    public void SetNoise()
+    {
+        Time.timeScale = 0.7f;
+        _grain.intensity.value = 0.5f;
+        _grain.response.value = 0.75f;
     }
 
     #region Decomposite
