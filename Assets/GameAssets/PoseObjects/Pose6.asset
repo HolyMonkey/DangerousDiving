@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e8df436a043c8c439d0d104abab3a0b, type: 3}
+  m_Name: Pose6
+  m_EditorClassIdentifier: 
+  _icon: {fileID: 21300000, guid: 284679f93704cd9449a10f61f34e7eec, type: 3}
