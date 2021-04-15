@@ -15,6 +15,7 @@ public class Character : MonoBehaviour
     [SerializeField] private Transform _dolly;
     [SerializeField] private Game _game;
     [SerializeField] private ParticleSystem _wind;
+    [SerializeField] private Effects _effects;
 
     private bool _isMove;
     private Rigidbody _rigidbody;
@@ -48,12 +49,25 @@ public class Character : MonoBehaviour
                 vertical = 0;
 
                 _stageFinished.Raise();
+                _effects.PoseSetup(_currentStage.Index); // delay needed
+                //StartCoroutine(PlayEffgects(_effects));
+
                 EndInteract();
             }
 
             _animator.SetFloat("BlendX", horizontal);
             _animator.SetFloat("BlendY", vertical);
         }
+    }
+
+    private IEnumerator PlayEffgects(Effects effects)
+    {
+        while (effects.IsPlaying) 
+        {
+            yield return null;
+        }
+
+        EndInteract();
     }
 
     private void FixedUpdate()
@@ -89,6 +103,7 @@ public class Character : MonoBehaviour
             if (_game.GameMode == Mode.Play)
             {
                 stage.Hide();
+                
                 StartInteract();
             }
             else if (_game.GameMode == Mode.Repeat)
