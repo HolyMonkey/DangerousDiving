@@ -1,17 +1,26 @@
 ﻿using UnityEngine;
+using DG.Tweening;
 
 public class Poses : MonoBehaviour
 {
     [SerializeField] private Sprite _active;
     [SerializeField] private Sprite _inactive;
-    [SerializeField] private PoseMenuHolder _poseHolder;
     [SerializeField] private PoseButton _template;
+    [SerializeField] private GameEvent _startJump;
+    [SerializeField] private PoseObject[] _poseObjects;
 
-    private PoseObject[] _poseObjects;
+    private RectTransform _rectTransform;
 
-    private void OnEnable()
+    private int _chosenPosesCount;
+
+    public void Activate()
     {
-        _poseObjects = _poseHolder.GetPoseObjects();
+        _chosenPosesCount = 0;
+
+        _rectTransform = GetComponent<RectTransform>();
+
+        _rectTransform.DOAnchorPosY(760, 0.3f).From().SetDelay(1).SetEase(Ease.OutBounce);
+
         DrawPoseMenu();
     }
 
@@ -29,5 +38,13 @@ public class Poses : MonoBehaviour
     private void OnPoseButtonClick(PoseButton poseButton)
     {
         poseButton.SetBackgroundSprite(_active);
+
+        if ((++_chosenPosesCount) == 3)
+        {
+            _rectTransform.DOAnchorPosY(-760, 0.3f).SetEase(Ease.InBack).OnComplete(() =>
+            {
+                _startJump.Raise();
+            });
+        }
     }
 }

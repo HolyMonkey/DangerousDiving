@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using DG.Tweening;
 
 public class PoseButton : MonoBehaviour
 {
@@ -20,6 +21,13 @@ public class PoseButton : MonoBehaviour
 
     public void OnButtonClick()
     {
+        RectTransform rectTransform = GetComponent<RectTransform>();
+
+        rectTransform.DOScale(Vector3.one * 1.2f, 0.15f).OnComplete(() =>
+        {
+            rectTransform.DOScale(Vector3.one, 0.15f);
+        });
+
         ButtonClicked?.Invoke(this);
         _button.interactable = false;
         _button.onClick.RemoveListener(OnButtonClick);

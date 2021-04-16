@@ -5,12 +5,13 @@ using DG.Tweening;
 public class UISwitcher : MonoBehaviour
 {
     [SerializeField] private Button _startButton;
-    [SerializeField] private GameEvent _startJump;
+    //[SerializeField] private GameEvent _startJump;
     [SerializeField] private RectTransform _slider;
     [SerializeField] private RectTransform _joystick;
     [SerializeField] private GameObject _waterenterPanel;
     [SerializeField] private GameObject _finishPanell;
     [SerializeField] private GameObject _repeatPanel;
+    [SerializeField] private GameObject _choicePanel;
     [SerializeField] private Game _game;
 
     private Slider _sliderComponent;
@@ -18,13 +19,16 @@ public class UISwitcher : MonoBehaviour
     private void Start()
     {
         //_sliderComponent = _slider.GetComponent<Slider>();
+        _choicePanel.SetActive(true);
     }
 
+/*
     public void OnStartButtonClick()
     {
         _startButton.gameObject.SetActive(false);
         _startJump.Raise();
     }
+*/
 
     public void OnStageReached()
     {
@@ -55,6 +59,11 @@ public class UISwitcher : MonoBehaviour
     public void OnRepeatStart()
     {
         _repeatPanel.SetActive(true);
+    }
+
+    public void OnJumpStarted()
+    {
+        _choicePanel.SetActive(false);
     }
 }
 
