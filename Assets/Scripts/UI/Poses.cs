@@ -8,6 +8,7 @@ public class Poses : MonoBehaviour
     [SerializeField] private PoseButton _template;
     [SerializeField] private GameEvent _startJump;
     [SerializeField] private PoseObject[] _poseObjects;
+    [SerializeField] private RectTransform _title;
 
     private RectTransform _rectTransform;
 
@@ -19,7 +20,8 @@ public class Poses : MonoBehaviour
 
         _rectTransform = GetComponent<RectTransform>();
 
-        _rectTransform.DOAnchorPosY(760, 0.3f).From().SetDelay(1).SetEase(Ease.OutBounce);
+        _title.DOAnchorPosX(-530, 0.5f).From().SetDelay(1).SetEase(Ease.OutBounce);
+        _rectTransform.DOAnchorPosY(760, 0.5f).From().SetDelay(1).SetEase(Ease.OutBounce);
 
         DrawPoseMenu();
     }
@@ -41,6 +43,7 @@ public class Poses : MonoBehaviour
 
         if ((++_chosenPosesCount) == 3)
         {
+            _title.DOAnchorPosX(530, 0.3f).SetEase(Ease.InBack);
             _rectTransform.DOAnchorPosY(-760, 0.3f).SetEase(Ease.InBack).OnComplete(() =>
             {
                 _startJump.Raise();
