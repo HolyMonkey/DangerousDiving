@@ -43,8 +43,8 @@ public class Poses : MonoBehaviour
 
         if ((++_chosenPosesCount) == 3)
         {
-            _title.DOAnchorPosX(530, 0.3f).SetEase(Ease.InBack);
-            _rectTransform.DOAnchorPosY(-760, 0.3f).SetEase(Ease.InBack).OnComplete(() =>
+            _title.DOAnchorPosX(530, 0.3f).SetEase(Ease.InBack).SetDelay(.5f);
+            _rectTransform.DOAnchorPosY(-760, 0.3f).SetEase(Ease.InBack).SetDelay(.5f).OnComplete(() =>
             {
                 _startJump.Raise();
             });

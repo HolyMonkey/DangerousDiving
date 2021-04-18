@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 using System.Collections;
 
 public class CameraMover : MonoBehaviour
@@ -13,6 +14,8 @@ public class CameraMover : MonoBehaviour
     private bool _ismove = true;
     private Vector3 _currentPoint;
     private Vector3 _originPosition;
+
+    public event UnityAction<Transform> CameraReachedViewPoint;
 
     private enum Direction
     { 
@@ -63,9 +66,13 @@ public class CameraMover : MonoBehaviour
         transform.position = target;
 
         if (_currentDirection == Direction.ZoomOut)
-        { 
+        {
             _cameraReady.Raise();
             _ismove = true;
+        }
+        else if (_currentDirection == Direction.ZoomIn)
+        {
+            CameraReachedViewPoint?.Invoke(transform);
         }
     }
 
