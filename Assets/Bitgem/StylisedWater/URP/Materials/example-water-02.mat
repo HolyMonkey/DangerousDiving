@@ -54,12 +54,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_17E53C12: 0.77
-    - Vector1_244B0600: 1.5
+    - Vector1_244B0600: 1.71
     - Vector1_34CF798A: 1.75
     - Vector1_36E8227: 0
-    - Vector1_3D886DA1: 0.05
-    - Vector1_46E42935: 0.4
-    - Vector1_47683D42: 0.429
+    - Vector1_3D886DA1: 0.47
+    - Vector1_46E42935: 0.443
+    - Vector1_47683D42: 0.32
     - Vector1_A0EAD698: 0.5
     - Vector1_A6A0BC26: 0.025
     - Vector1_B9F56378: 0.17
@@ -87,15 +87,15 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _WaveFrequency: 2.75
-    - _WaveScale: 0.05
+    - _WaveFrequency: 3.85
+    - _WaveScale: 1.25
     - _WaveSpeed: 1.75
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_7D9A58EC: {r: 0.06541474, g: 0.30456644, b: 0.6603774, a: 0.9843137}
+    - Color_7D9A58EC: {r: 0.06666665, g: 0.51404405, b: 0.65882355, a: 0.9843137}
     - Color_F01C36BF: {r: 0, g: 1, b: 1, a: 0}
-    - Vector2_37B21477: {r: 10, g: 10, b: 1, a: 1}
+    - Vector2_37B21477: {r: 11.74, g: 12.35, b: 1, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
