@@ -20,6 +20,7 @@ public class Character : MonoBehaviour
     [SerializeField] private Effects _effects;
     [SerializeField] private Volume _volume;
 
+    private float _currentSpeed;
     private bool _isMove;
     private Rigidbody _rigidbody;
     private Animator _animator;
@@ -35,7 +36,7 @@ public class Character : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
         _animator = GetComponent<Animator>();
         _originPosition = transform.position;
-
+        _currentSpeed = _speed;
         _volume.profile.TryGet<FilmGrain>(out _grain);
     }
 
@@ -75,21 +76,20 @@ public class Character : MonoBehaviour
     public void OnStartJump()
     {
         _isMove = true;
-        _animator.SetTrigger("Run");
+        //_animator.SetTrigger("Run");
     }
 
     private void Move()
     {
-        _rigidbody.MovePosition(transform.position + Vector3.right * _speed * Time.fixedDeltaTime);
+        _rigidbody.MovePosition(transform.position + Vector3.right * _currentSpeed * Time.fixedDeltaTime);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-
         if (other.TryGetComponent(out Springboard board))
         {
-            _rigidbody.AddForce((Vector3.up + Vector3.right).normalized * _force, ForceMode.Impulse);
-            _isMove = false;
+            _currentSpeed = 3;
+            _rigidbody.AddForce(Vector3.up * _force, ForceMode.Impulse);
             _animator.SetTrigger("Jump");
         }
         else if (other.TryGetComponent(out Stage stage))
@@ -123,6 +123,7 @@ public class Character : MonoBehaviour
         _animator.SetTrigger("Reset");
         _animator.ResetTrigger("StageEnter");
         _wind.Stop();
+        _currentSpeed = _speed;
     }
 
     public void SetNoise()

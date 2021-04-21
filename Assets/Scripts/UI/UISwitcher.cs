@@ -19,7 +19,7 @@ public class UISwitcher : MonoBehaviour
     private void Start()
     {
         //_sliderComponent = _slider.GetComponent<Slider>();
-        _choicePanel.SetActive(true);
+        //_choicePanel.SetActive(true);
     }
 
 /*
@@ -63,7 +63,7 @@ public class UISwitcher : MonoBehaviour
 
     public void OnJumpStarted()
     {
-        _choicePanel.SetActive(false);
+        //_choicePanel.SetActive(false);
     }
 }
 

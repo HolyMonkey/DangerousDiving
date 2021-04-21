@@ -19,6 +19,7 @@ public class Game : MonoBehaviour
 
     private void OnEnable()
     {
+        _startJump.Raise();
         _originCursorEulers = _cursor.rotation.eulerAngles;
         _camera.CameraReachedViewPoint += OnCameraReachViewPoint;
     }
