@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6705897028860576418
+--- !u!1 &1116963271060394368
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703094713087598060}
+  - component: {fileID: 1123169666232028878}
   m_Layer: 0
   m_Name: Lauren_LeftHand
   m_TagString: Untagged
@@ -16,26 +16,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703094713087598060
+--- !u!4 &1123169666232028878
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6705897028860576418}
+  m_GameObject: {fileID: 1116963271060394368}
   m_LocalRotation: {x: 0, y: 0, z: 0.0055182013, w: 0.9999848}
   m_LocalPosition: {x: -0.16480398, y: -0.19074042, z: 0.016126275}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6703475252618649510}
-  - {fileID: 6703531111979105456}
-  - {fileID: 6703215873539493830}
-  - {fileID: 6708574646977606762}
-  - {fileID: 6703597982936226106}
-  m_Father: {fileID: 6708244946423804028}
+  - {fileID: 1123620366369377412}
+  - {fileID: 1123608504635535250}
+  - {fileID: 1123360785330298084}
+  - {fileID: 1119642473852381000}
+  - {fileID: 1123532821497104920}
+  m_Father: {fileID: 1119171722441253726}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706160322281275626
+--- !u!1 &1117198390697835868
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,314 +43,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703118619723664750}
-  m_Layer: 0
-  m_Name: Lauren_RightShoulder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6703118619723664750
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706160322281275626}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.07, y: 0.19691208, z: 0.0061675096}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6708340806608189076}
-  m_Father: {fileID: 6708332638622385168}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706170588673929010
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6708574646977606762}
-  m_Layer: 0
-  m_Name: Lauren_LeftHandRing1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6708574646977606762
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706170588673929010}
-  m_LocalRotation: {x: 0, y: 0, z: -0.031660367, w: 0.9994987}
-  m_LocalPosition: {x: -0.06266001, y: -0.106399, z: -0.029719874}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6703126573060889082}
-  m_Father: {fileID: 6703094713087598060}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706194064326908790
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6703306111342785284}
-  m_Layer: 0
-  m_Name: Lauren_LeftHandPinky2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6703306111342785284
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706194064326908790}
-  m_LocalRotation: {x: 0, y: 0, z: 0.12894104, w: 0.9916523}
-  m_LocalPosition: {x: -0.002778561, y: -0.031613663, z: -0.0038125431}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6703510334919592306}
-  m_Father: {fileID: 6703215873539493830}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706202507631587930
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6703594923515894472}
-  m_Layer: 0
-  m_Name: Lauren_RightHandIndex4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6703594923515894472
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706202507631587930}
-  m_LocalRotation: {x: -0.43556327, y: 0.86401254, z: 0.14917849, w: -0.20374702}
-  m_LocalPosition: {x: 0.01751417, y: -0.004803869, z: -0.01663472}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6703374356397818702}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706204706703862316
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6703370461136101196}
-  m_Layer: 0
-  m_Name: Lauren_Neck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6703370461136101196
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706204706703862316}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.24312323, z: -0.030316832}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6703113962910036700}
-  m_Father: {fileID: 6708332638622385168}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706204902637325188
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6708251644249302622}
-  m_Layer: 0
-  m_Name: Lauren_RightHandPinky3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6708251644249302622
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706204902637325188}
-  m_LocalRotation: {x: 0.7462465, y: -0.41548026, z: -0.44884852, w: 0.26273054}
-  m_LocalPosition: {x: 0.01198144, y: -0.013574251, z: -0.005465635}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6708259809315838756}
-  m_Father: {fileID: 6708211414029626234}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706205438429787340
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6708259809315838756}
-  m_Layer: 0
-  m_Name: Lauren_RightHandPinky4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6708259809315838756
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706205438429787340}
-  m_LocalRotation: {x: -0.4358516, y: 0.8637225, z: 0.14794907, w: -0.20525083}
-  m_LocalPosition: {x: 0.016799368, y: -0.00038475983, z: -0.008526695}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6708251644249302622}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706225045541114202
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6708285057502379304}
-  m_Layer: 0
-  m_Name: Lauren_LeftHandThumb4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6708285057502379304
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706225045541114202}
-  m_LocalRotation: {x: 0, y: 0, z: 0.8247508, w: 0.5654964}
-  m_LocalPosition: {x: 0.016957477, y: -0.021326007, z: 0.0014952248}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6703108753620478564}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706230055479726628
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6703061999211676656}
-  m_Layer: 0
-  m_Name: Lauren_RightHandRing3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6703061999211676656
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706230055479726628}
-  m_LocalRotation: {x: 0.74612206, y: -0.41518477, z: -0.44899094, w: 0.2633074}
-  m_LocalPosition: {x: 0.019598776, y: -0.018832348, z: -0.004910503}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6708629508578842884}
-  m_Father: {fileID: 6708611243760676524}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706242278599339096
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6708547352276102022}
-  m_Layer: 0
-  m_Name: Lauren_LeftArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6708547352276102022
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706242278599339096}
-  m_LocalRotation: {x: 0, y: 0, z: 0.00003208273, w: 1}
-  m_LocalPosition: {x: -0.07986552, y: -0.013511745, z: -0.029902939}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6708244946423804028}
-  m_Father: {fileID: 6703216420374453316}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706273230154182270
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6703597982936226106}
+  - component: {fileID: 1123532821497104920}
   m_Layer: 0
   m_Name: Lauren_LeftHandThumb1
   m_TagString: Untagged
@@ -358,22 +51,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703597982936226106
+--- !u!4 &1123532821497104920
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706273230154182270}
+  m_GameObject: {fileID: 1117198390697835868}
   m_LocalRotation: {x: 0, y: 0, z: -0.031660367, w: 0.9994987}
   m_LocalPosition: {x: -0.01532821, y: -0.034577046, z: 0.026579017}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6703537156827457556}
-  m_Father: {fileID: 6703094713087598060}
+  - {fileID: 1123611248365583158}
+  m_Father: {fileID: 1123169666232028878}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706277647935489328
+--- !u!1 &1117202776803628562
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -381,45 +74,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708617582549212072}
-  - component: {fileID: 6648433807823355854}
-  - component: {fileID: 353975949}
-  - component: {fileID: 353975950}
-  - component: {fileID: 353975948}
+  - component: {fileID: 1119617130215147658}
+  - component: {fileID: 1068367609052900588}
   m_Layer: 0
-  m_Name: Character
+  m_Name: Dolly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708617582549212072
+--- !u!4 &1119617130215147658
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706277647935489328}
+  m_GameObject: {fileID: 1117202776803628562}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.15878248, y: 1.0421705, z: 1.2306404}
-  m_LocalScale: {x: 1.65, y: 1.65, z: 1.65}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6703131365410761190}
-  - {fileID: 6703225599177200330}
+  - {fileID: 1123137429397961412}
+  - {fileID: 1123302680112955880}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &6648433807823355854
+--- !u!95 &1068367609052900588
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706277647935489328}
+  m_GameObject: {fileID: 1117202776803628562}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 381e8171fa6b0f346808060884574880, type: 2}
+  m_Avatar: {fileID: 9000000, guid: e7a732d3a64b94e4897f6c7ab11912ba, type: 3}
+  m_Controller: {fileID: 0}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -428,61 +118,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!54 &353975949
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706277647935489328}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!136 &353975950
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706277647935489328}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.17
-  m_Height: 1.77
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.87, z: 0}
---- !u!114 &353975948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706277647935489328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2991e5f3769bcc4a8522891091ad426, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _speed: 6
-  _slider: {fileID: 0}
-  _joytick: {fileID: 0}
-  _force: 3
-  _stageReached: {fileID: 11400000, guid: 0f30485d0ff2bf94c84f2afe012e0aae, type: 2}
-  _stageFinished: {fileID: 11400000, guid: d5ac8b30223dbd0419c92d933274cf28, type: 2}
-  _waterEnter: {fileID: 11400000, guid: f9e9c2aadd1f59241ae7fc2349f56ad6, type: 2}
-  _dolly: {fileID: 0}
-  _game: {fileID: 0}
-  _wind: {fileID: 0}
-  _effects: {fileID: 0}
-  _volume: {fileID: 0}
---- !u!1 &6706330462635073898
+--- !u!1 &1117224592602940024
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -490,29 +126,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708208917037705636}
+  - component: {fileID: 1119421906846412298}
   m_Layer: 0
-  m_Name: Lauren_LeftHandPinky4
+  m_Name: Lauren_LeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708208917037705636
+--- !u!4 &1119421906846412298
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706330462635073898}
-  m_LocalRotation: {x: 0, y: 0, z: 0.8275007, w: 0.56146467}
-  m_LocalPosition: {x: 0.009231533, y: -0.016324762, z: -0.0018309315}
+  m_GameObject: {fileID: 1117224592602940024}
+  m_LocalRotation: {x: 0, y: 0, z: 0.8247508, w: 0.5654964}
+  m_LocalPosition: {x: 0.016957477, y: -0.021326007, z: 0.0014952248}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6703510334919592306}
+  m_Father: {fileID: 1123182022571833670}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706331589495167004
+--- !u!1 &1117228370452103430
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -520,30 +156,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703452977632474366}
+  - component: {fileID: 1123206805268009170}
   m_Layer: 0
-  m_Name: Lauren_RightHandMiddle2
+  m_Name: Lauren_RightHandRing3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703452977632474366
+--- !u!4 &1123206805268009170
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706331589495167004}
-  m_LocalRotation: {x: -0.034548353, y: -0.0800189, z: -0.39488408, w: 0.9145873}
-  m_LocalPosition: {x: 0.006883914, y: -0.041045006, z: -0.0026290196}
+  m_GameObject: {fileID: 1117228370452103430}
+  m_LocalRotation: {x: 0.74612206, y: -0.41518477, z: -0.44899094, w: 0.2633074}
+  m_LocalPosition: {x: 0.019598776, y: -0.018832348, z: -0.004910503}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708376469251834554}
-  m_Father: {fileID: 6703398683400502562}
+  - {fileID: 1119627202999618086}
+  m_Father: {fileID: 1119610276197989774}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706340016179288812
+--- !u!1 &1117238155812880250
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -551,30 +187,214 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708312443700068196}
+  - component: {fileID: 1119687369061988516}
   m_Layer: 0
-  m_Name: Lauren_Spine
+  m_Name: Lauren_LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708312443700068196
+--- !u!4 &1119687369061988516
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706340016179288812}
+  m_GameObject: {fileID: 1117238155812880250}
+  m_LocalRotation: {x: 0, y: 0, z: 0.00003208273, w: 1}
+  m_LocalPosition: {x: -0.07986552, y: -0.013511745, z: -0.029902939}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1119171722441253726}
+  m_Father: {fileID: 1123360229931585382}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117259964338554964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123239742954610726}
+  m_Layer: 0
+  m_Name: Lauren_LeftHandPinky2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123239742954610726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117259964338554964}
+  m_LocalRotation: {x: 0, y: 0, z: 0.12894104, w: 0.9916523}
+  m_LocalPosition: {x: -0.002778561, y: -0.031613663, z: -0.0038125431}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1123585292363192912}
+  m_Father: {fileID: 1123360785330298084}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117269129327632760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123531472920463850}
+  m_Layer: 0
+  m_Name: Lauren_RightHandIndex4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123531472920463850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117269129327632760}
+  m_LocalRotation: {x: -0.43556327, y: 0.86401254, z: 0.14917849, w: -0.20374702}
+  m_LocalPosition: {x: 0.01751417, y: -0.004803869, z: -0.01663472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1123448592286978156}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117271142047799462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119178217665295740}
+  m_Layer: 0
+  m_Name: Lauren_RightHandPinky3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1119178217665295740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117271142047799462}
+  m_LocalRotation: {x: 0.7462465, y: -0.41548026, z: -0.44884852, w: 0.26273054}
+  m_LocalPosition: {x: 0.01198144, y: -0.013574251, z: -0.005465635}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1119398760413087750}
+  m_Father: {fileID: 1119209660383459416}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117271328299251982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123443700056099950}
+  m_Layer: 0
+  m_Name: Lauren_Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123443700056099950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117271328299251982}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.03629948, z: 0.0058467705}
+  m_LocalPosition: {x: -0, y: 0.24312323, z: -0.030316832}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708332638622385168}
-  m_Father: {fileID: 6708196605646225108}
+  - {fileID: 1123190017344479742}
+  m_Father: {fileID: 1119330336931354418}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117274978522621934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119398760413087750}
+  m_Layer: 0
+  m_Name: Lauren_RightHandPinky4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1119398760413087750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117274978522621934}
+  m_LocalRotation: {x: -0.4358516, y: 0.8637225, z: 0.14794907, w: -0.20525083}
+  m_LocalPosition: {x: 0.016799368, y: -0.00038475983, z: -0.008526695}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1119178217665295740}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117298103633220552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123123787635367500}
+  m_Layer: 0
+  m_Name: Lauren_RightShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123123787635367500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117298103633220552}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.07, y: 0.19691208, z: 0.0061675096}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1119339769717908918}
+  m_Father: {fileID: 1119330336931354418}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706351588860179788
+--- !u!1 &1117309844646755344
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -582,60 +402,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703113962910036700}
+  - component: {fileID: 1119642473852381000}
   m_Layer: 0
-  m_Name: Lauren_Head
+  m_Name: Lauren_LeftHandRing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703113962910036700
+--- !u!4 &1119642473852381000
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706351588860179788}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.11182517, z: 0.026164757}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6703370461136101196}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706360969541192282
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6703475252618649510}
-  m_Layer: 0
-  m_Name: Lauren_LeftHandIndex1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6703475252618649510
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706360969541192282}
+  m_GameObject: {fileID: 1117309844646755344}
   m_LocalRotation: {x: 0, y: 0, z: -0.031660367, w: 0.9994987}
-  m_LocalPosition: {x: -0.07376765, y: -0.10457395, z: 0.017454596}
+  m_LocalPosition: {x: -0.06266001, y: -0.106399, z: -0.029719874}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708253887181296004}
-  m_Father: {fileID: 6703094713087598060}
-  m_RootOrder: 0
+  - {fileID: 1123133426751572696}
+  m_Father: {fileID: 1123169666232028878}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706395330043341202
+--- !u!1 &1117322589215259312
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -643,8 +433,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703131365410761190}
-  - component: {fileID: 6696889345597115728}
+  - component: {fileID: 1123137429397961412}
+  - component: {fileID: 1035898953176555122}
   m_Layer: 0
   m_Name: Lauren_model
   m_TagString: Untagged
@@ -652,27 +442,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703131365410761190
+--- !u!4 &1123137429397961412
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706395330043341202}
+  m_GameObject: {fileID: 1117322589215259312}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6708617582549212072}
+  m_Father: {fileID: 1119617130215147658}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &6696889345597115728
+--- !u!137 &1035898953176555122
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706395330043341202}
+  m_GameObject: {fileID: 1117322589215259312}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -684,9 +474,9 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9807de74cec7e1142830933addb4dea1, type: 2}
-  - {fileID: 2100000, guid: f8a1b08724832ba4cb2bbeea5d0cd6f2, type: 2}
-  - {fileID: 2100000, guid: cc06a3a1cfb3b444ca4a54396d26034e, type: 2}
+  - {fileID: 2100000, guid: 35e6350100775ed4f9b6b3b55ad33aa2, type: 2}
+  - {fileID: 2100000, guid: 35e6350100775ed4f9b6b3b55ad33aa2, type: 2}
+  - {fileID: 2100000, guid: 35e6350100775ed4f9b6b3b55ad33aa2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -713,76 +503,76 @@ SkinnedMeshRenderer:
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 4300000, guid: e7a732d3a64b94e4897f6c7ab11912ba, type: 3}
   m_Bones:
-  - {fileID: 6708196605646225108}
-  - {fileID: 6703403693454872852}
-  - {fileID: 6703389745689216700}
-  - {fileID: 6703148159266701938}
-  - {fileID: 6703114653702957434}
-  - {fileID: 6703588063280403232}
-  - {fileID: 6708587843576153168}
-  - {fileID: 6708477353516846514}
-  - {fileID: 6708179235015424814}
-  - {fileID: 6708221534960574466}
-  - {fileID: 6708600326181071682}
-  - {fileID: 6708312443700068196}
-  - {fileID: 6708332638622385168}
-  - {fileID: 6703216420374453316}
-  - {fileID: 6708547352276102022}
-  - {fileID: 6708244946423804028}
-  - {fileID: 6703094713087598060}
-  - {fileID: 6703597982936226106}
-  - {fileID: 6703537156827457556}
-  - {fileID: 6703108753620478564}
-  - {fileID: 6708285057502379304}
-  - {fileID: 6703475252618649510}
-  - {fileID: 6708253887181296004}
-  - {fileID: 6708492220101354968}
-  - {fileID: 6703397548638864060}
-  - {fileID: 6703531111979105456}
-  - {fileID: 6703101232122926986}
-  - {fileID: 6703389749157620184}
-  - {fileID: 6708550982875264856}
-  - {fileID: 6708574646977606762}
-  - {fileID: 6703126573060889082}
-  - {fileID: 6708562401335212038}
-  - {fileID: 6708540836779656568}
-  - {fileID: 6703215873539493830}
-  - {fileID: 6703306111342785284}
-  - {fileID: 6703510334919592306}
-  - {fileID: 6708208917037705636}
-  - {fileID: 6703118619723664750}
-  - {fileID: 6708340806608189076}
-  - {fileID: 6703088535855914138}
-  - {fileID: 6708566901247691896}
-  - {fileID: 6703333918331051960}
-  - {fileID: 6708474082060905504}
-  - {fileID: 6703096164360342722}
-  - {fileID: 6708131796207520056}
-  - {fileID: 6708213847950552656}
-  - {fileID: 6703206007701062120}
-  - {fileID: 6703374356397818702}
-  - {fileID: 6703594923515894472}
-  - {fileID: 6703398683400502562}
-  - {fileID: 6703452977632474366}
-  - {fileID: 6708376469251834554}
-  - {fileID: 6708344699046699098}
-  - {fileID: 6703115973184657132}
-  - {fileID: 6708611243760676524}
-  - {fileID: 6703061999211676656}
-  - {fileID: 6708629508578842884}
-  - {fileID: 6703394926011545072}
-  - {fileID: 6708211414029626234}
-  - {fileID: 6708251644249302622}
-  - {fileID: 6708259809315838756}
-  - {fileID: 6703370461136101196}
-  - {fileID: 6703113962910036700}
+  - {fileID: 1119193683236072950}
+  - {fileID: 1123410441948152374}
+  - {fileID: 1123463981544953246}
+  - {fileID: 1123151405784518992}
+  - {fileID: 1123189334083484248}
+  - {fileID: 1123520766739152898}
+  - {fileID: 1119655666357622642}
+  - {fileID: 1119475877000535696}
+  - {fileID: 1119246237453608972}
+  - {fileID: 1119146762642191136}
+  - {fileID: 1119669589185411168}
+  - {fileID: 1119381300997827654}
+  - {fileID: 1119330336931354418}
+  - {fileID: 1123360229931585382}
+  - {fileID: 1119687369061988516}
+  - {fileID: 1119171722441253726}
+  - {fileID: 1123169666232028878}
+  - {fileID: 1123532821497104920}
+  - {fileID: 1123611248365583158}
+  - {fileID: 1123182022571833670}
+  - {fileID: 1119421906846412298}
+  - {fileID: 1123620366369377412}
+  - {fileID: 1119391496201601702}
+  - {fileID: 1119491804274587386}
+  - {fileID: 1123403402307146142}
+  - {fileID: 1123608504635535250}
+  - {fileID: 1123176358777193640}
+  - {fileID: 1123463978067655418}
+  - {fileID: 1119688145114440826}
+  - {fileID: 1119642473852381000}
+  - {fileID: 1123133426751572696}
+  - {fileID: 1119698700755790628}
+  - {fileID: 1119680681829963354}
+  - {fileID: 1123360785330298084}
+  - {fileID: 1123239742954610726}
+  - {fileID: 1123585292363192912}
+  - {fileID: 1119207777571469958}
+  - {fileID: 1123123787635367500}
+  - {fileID: 1119339769717908918}
+  - {fileID: 1123162666514042808}
+  - {fileID: 1119707394204262234}
+  - {fileID: 1123480234001206426}
+  - {fileID: 1119470369271725826}
+  - {fileID: 1123172631547797472}
+  - {fileID: 1119271702930414106}
+  - {fileID: 1119211642762132850}
+  - {fileID: 1123353049325818570}
+  - {fileID: 1123448592286978156}
+  - {fileID: 1123531472920463850}
+  - {fileID: 1123402275059658240}
+  - {fileID: 1123387572894230492}
+  - {fileID: 1119304107891085720}
+  - {fileID: 1119340267559596920}
+  - {fileID: 1123122035053594062}
+  - {fileID: 1119610276197989774}
+  - {fileID: 1123206805268009170}
+  - {fileID: 1119627202999618086}
+  - {fileID: 1123472011712095954}
+  - {fileID: 1119209660383459416}
+  - {fileID: 1119178217665295740}
+  - {fileID: 1119398760413087750}
+  - {fileID: 1123443700056099950}
+  - {fileID: 1123190017344479742}
   m_BlendShapeWeights: []
-  m_RootBone: {fileID: 6708196605646225108}
+  m_RootBone: {fileID: 1119193683236072950}
   m_AABB:
     m_Center: {x: 0.0030935705, y: -0.10455707, z: 0.046494782}
     m_Extent: {x: 0.61500406, y: 0.8869773, z: 0.23134685}
   m_DirtyAABB: 0
---- !u!1 &6706409257301217798
+--- !u!1 &1117335068498919716
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -790,7 +580,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703225599177200330}
+  - component: {fileID: 1123302680112955880}
   m_Layer: 0
   m_Name: Lauren_Reference
   m_TagString: Untagged
@@ -798,22 +588,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703225599177200330
+--- !u!4 &1123302680112955880
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706409257301217798}
+  m_GameObject: {fileID: 1117335068498919716}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708196605646225108}
-  m_Father: {fileID: 6708617582549212072}
+  - {fileID: 1119193683236072950}
+  m_Father: {fileID: 1119617130215147658}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706410714826157272
+--- !u!1 &1117338007653171194
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -821,7 +611,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708540836779656568}
+  - component: {fileID: 1119680681829963354}
   m_Layer: 0
   m_Name: Lauren_LeftHandRing4
   m_TagString: Untagged
@@ -829,21 +619,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708540836779656568
+--- !u!4 &1119680681829963354
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706410714826157272}
+  m_GameObject: {fileID: 1117338007653171194}
   m_LocalRotation: {x: 0.009223834, y: -0.017616307, z: 0.82452726, w: 0.5654727}
   m_LocalPosition: {x: 0.00846065, y: -0.016513525, z: -0.0011184228}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6708562401335212038}
+  m_Father: {fileID: 1119698700755790628}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706415827459671532
+--- !u!1 &1117341675030124238
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -851,7 +641,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703389745689216700}
+  - component: {fileID: 1123463981544953246}
   m_Layer: 0
   m_Name: Lauren_LeftLeg
   m_TagString: Untagged
@@ -859,22 +649,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703389745689216700
+--- !u!4 &1123463981544953246
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706415827459671532}
+  m_GameObject: {fileID: 1117341675030124238}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.00342994, y: -0.4374139, z: 0.0032372896}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6703148159266701938}
-  m_Father: {fileID: 6703403693454872852}
+  - {fileID: 1123151405784518992}
+  m_Father: {fileID: 1123410441948152374}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706433934000999872
+--- !u!1 &1117356949700057464
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -882,30 +672,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708179235015424814}
+  - component: {fileID: 1123620366369377412}
   m_Layer: 0
-  m_Name: Lauren_RightFoot
+  m_Name: Lauren_LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708179235015424814
+--- !u!4 &1123620366369377412
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706433934000999872}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0069451956, y: -0.4164997, z: -0.055762943}
+  m_GameObject: {fileID: 1117356949700057464}
+  m_LocalRotation: {x: 0, y: 0, z: -0.031660367, w: 0.9994987}
+  m_LocalPosition: {x: -0.07376765, y: -0.10457395, z: 0.017454596}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708221534960574466}
-  m_Father: {fileID: 6708477353516846514}
+  - {fileID: 1119391496201601702}
+  m_Father: {fileID: 1123169666232028878}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706464364321491584
+--- !u!1 &1117399515321895742
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -913,32 +703,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708332638622385168}
+  - component: {fileID: 1123387572894230492}
   m_Layer: 0
-  m_Name: Lauren_Spine1
+  m_Name: Lauren_RightHandMiddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708332638622385168
+--- !u!4 &1123387572894230492
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706464364321491584}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.2170178, z: -0.010993632}
+  m_GameObject: {fileID: 1117399515321895742}
+  m_LocalRotation: {x: -0.034548353, y: -0.0800189, z: -0.39488408, w: 0.9145873}
+  m_LocalPosition: {x: 0.006883914, y: -0.041045006, z: -0.0026290196}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6703216420374453316}
-  - {fileID: 6703370461136101196}
-  - {fileID: 6703118619723664750}
-  m_Father: {fileID: 6708312443700068196}
+  - {fileID: 1119304107891085720}
+  m_Father: {fileID: 1123402275059658240}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706476575526045574
+--- !u!1 &1117400660428272200
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -946,60 +734,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703394926011545072}
+  - component: {fileID: 1119207777571469958}
   m_Layer: 0
-  m_Name: Lauren_RightHandPinky1
+  m_Name: Lauren_LeftHandPinky4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703394926011545072
+--- !u!4 &1119207777571469958
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706476575526045574}
-  m_LocalRotation: {x: 0, y: 0, z: 0.09967674, w: 0.9950199}
-  m_LocalPosition: {x: 0.04788608, y: -0.10057773, z: -0.048925605}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6708211414029626234}
-  m_Father: {fileID: 6708566901247691896}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706480299636627522
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6708344699046699098}
-  m_Layer: 0
-  m_Name: Lauren_RightHandMiddle4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6708344699046699098
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706480299636627522}
-  m_LocalRotation: {x: -0.43556327, y: 0.86401254, z: 0.14917849, w: -0.20374702}
-  m_LocalPosition: {x: 0.019560676, y: -0.0017733496, z: -0.015077044}
+  m_GameObject: {fileID: 1117400660428272200}
+  m_LocalRotation: {x: 0, y: 0, z: 0.8275007, w: 0.56146467}
+  m_LocalPosition: {x: 0.009231533, y: -0.016324762, z: -0.0018309315}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6708376469251834554}
+  m_Father: {fileID: 1123585292363192912}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706490986465003908
+--- !u!1 &1117408697718999502
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1007,94 +764,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703510334919592306}
+  - component: {fileID: 1119381300997827654}
   m_Layer: 0
-  m_Name: Lauren_LeftHandPinky3
+  m_Name: Lauren_Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703510334919592306
+--- !u!4 &1119381300997827654
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706490986465003908}
-  m_LocalRotation: {x: 0, y: 0, z: -0.38936847, w: 0.9210821}
-  m_LocalPosition: {x: -0.005727986, y: -0.017719379, z: -0.0033018386}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6708208917037705636}
-  m_Father: {fileID: 6703306111342785284}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706516041874012268
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6708492220101354968}
-  m_Layer: 0
-  m_Name: Lauren_LeftHandIndex3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6708492220101354968
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706516041874012268}
-  m_LocalRotation: {x: 0.29759336, y: 0.9342232, z: -0.19419931, w: -0.030855043}
-  m_LocalPosition: {x: -0.015582042, y: -0.018542308, z: 0.0032405802}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6703397548638864060}
-  m_Father: {fileID: 6708253887181296004}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706522651276150532
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6708196605646225108}
-  m_Layer: 0
-  m_Name: Lauren_Hips
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6708196605646225108
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706522651276150532}
+  m_GameObject: {fileID: 1117408697718999502}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.99152637, z: 0}
+  m_LocalPosition: {x: -0, y: 0.03629948, z: 0.0058467705}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6703403693454872852}
-  - {fileID: 6708587843576153168}
-  - {fileID: 6708312443700068196}
-  m_Father: {fileID: 6703225599177200330}
-  m_RootOrder: 0
+  - {fileID: 1119330336931354418}
+  m_Father: {fileID: 1119193683236072950}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706546184689181062
+--- !u!1 &1117419106694375022
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1102,7 +795,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708253887181296004}
+  - component: {fileID: 1123190017344479742}
+  m_Layer: 0
+  m_Name: Lauren_Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123190017344479742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117419106694375022}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.11182517, z: 0.026164757}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1123443700056099950}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117475191975703204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119391496201601702}
   m_Layer: 0
   m_Name: Lauren_LeftHandIndex2
   m_TagString: Untagged
@@ -1110,22 +833,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708253887181296004
+--- !u!4 &1119391496201601702
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706546184689181062}
+  m_GameObject: {fileID: 1117475191975703204}
   m_LocalRotation: {x: 0.011235079, y: -0.08642856, z: 0.12840457, w: 0.9878847}
   m_LocalPosition: {x: -0.012237726, y: -0.0320665, z: 0.0014339596}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708492220101354968}
-  m_Father: {fileID: 6703475252618649510}
+  - {fileID: 1119491804274587386}
+  m_Father: {fileID: 1123620366369377412}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706548612019125438
+--- !u!1 &1117477179075751836
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1133,7 +856,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703333918331051960}
+  - component: {fileID: 1123480234001206426}
   m_Layer: 0
   m_Name: Lauren_RightHandThumb1
   m_TagString: Untagged
@@ -1141,22 +864,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703333918331051960
+--- !u!4 &1123480234001206426
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706548612019125438}
+  m_GameObject: {fileID: 1117477179075751836}
   m_LocalRotation: {x: 0, y: 0, z: 0.09967674, w: 0.9950199}
   m_LocalPosition: {x: 0.016060313, y: -0.034243133, z: 0.026579017}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708474082060905504}
-  m_Father: {fileID: 6708566901247691896}
+  - {fileID: 1119470369271725826}
+  m_Father: {fileID: 1119707394204262234}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706560196762518410
+--- !u!1 &1117487592903692456
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1164,7 +887,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703096164360342722}
+  - component: {fileID: 1123172631547797472}
   m_Layer: 0
   m_Name: Lauren_RightHandThumb3
   m_TagString: Untagged
@@ -1172,22 +895,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703096164360342722
+--- !u!4 &1123172631547797472
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706560196762518410}
+  m_GameObject: {fileID: 1117487592903692456}
   m_LocalRotation: {x: 0, y: 0, z: 0.9518217, w: 0.30665213}
   m_LocalPosition: {x: 0.02153604, y: -0.029439766, z: 0.007649001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708131796207520056}
-  m_Father: {fileID: 6708474082060905504}
+  - {fileID: 1119271702930414106}
+  m_Father: {fileID: 1119470369271725826}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706567039622047792
+--- !u!1 &1117514148074777422
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1195,30 +918,63 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708221534960574466}
+  - component: {fileID: 1119491804274587386}
   m_Layer: 0
-  m_Name: Lauren_RightFootIndex1
+  m_Name: Lauren_LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708221534960574466
+--- !u!4 &1119491804274587386
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706567039622047792}
+  m_GameObject: {fileID: 1117514148074777422}
+  m_LocalRotation: {x: 0.29759336, y: 0.9342232, z: -0.19419931, w: -0.030855043}
+  m_LocalPosition: {x: -0.015582042, y: -0.018542308, z: 0.0032405802}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1123403402307146142}
+  m_Father: {fileID: 1119391496201601702}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117520723146871846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119193683236072950}
+  m_Layer: 0
+  m_Name: Lauren_Hips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1119193683236072950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117520723146871846}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.004479692, y: -0.089619756, z: 0.08878811}
+  m_LocalPosition: {x: -0, y: 0.99152637, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708600326181071682}
-  m_Father: {fileID: 6708179235015424814}
+  - {fileID: 1123410441948152374}
+  - {fileID: 1119655666357622642}
+  - {fileID: 1119381300997827654}
+  m_Father: {fileID: 1123302680112955880}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706568397378134430
+--- !u!1 &1117530640172013986
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1226,30 +982,63 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703215873539493830}
+  - component: {fileID: 1119330336931354418}
   m_Layer: 0
-  m_Name: Lauren_LeftHandPinky1
+  m_Name: Lauren_Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703215873539493830
+--- !u!4 &1119330336931354418
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706568397378134430}
-  m_LocalRotation: {x: 0, y: 0, z: -0.031660367, w: 0.9994987}
-  m_LocalPosition: {x: -0.045735613, y: -0.10157367, z: -0.048925605}
+  m_GameObject: {fileID: 1117530640172013986}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.2170178, z: -0.010993632}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6703306111342785284}
-  m_Father: {fileID: 6703094713087598060}
+  - {fileID: 1123360229931585382}
+  - {fileID: 1123443700056099950}
+  - {fileID: 1123123787635367500}
+  m_Father: {fileID: 1119381300997827654}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117544810016068772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123472011712095954}
+  m_Layer: 0
+  m_Name: Lauren_RightHandPinky1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123472011712095954
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117544810016068772}
+  m_LocalRotation: {x: 0, y: 0, z: 0.09967674, w: 0.9950199}
+  m_LocalPosition: {x: 0.04788608, y: -0.10057773, z: -0.048925605}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1119209660383459416}
+  m_Father: {fileID: 1119707394204262234}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706580759173999792
+--- !u!1 &1117549872075803488
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1257,122 +1046,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703398683400502562}
+  - component: {fileID: 1119340267559596920}
   m_Layer: 0
-  m_Name: Lauren_RightHandMiddle1
+  m_Name: Lauren_RightHandMiddle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703398683400502562
+--- !u!4 &1119340267559596920
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706580759173999792}
-  m_LocalRotation: {x: 0, y: 0, z: 0.09967674, w: 0.9950199}
-  m_LocalPosition: {x: 0.07285465, y: -0.104024544, z: -0.0047699763}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6703452977632474366}
-  m_Father: {fileID: 6708566901247691896}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706582574958848092
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6703148159266701938}
-  m_Layer: 0
-  m_Name: Lauren_LeftFoot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6703148159266701938
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706582574958848092}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0069451956, y: -0.4164997, z: -0.055762943}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6703114653702957434}
-  m_Father: {fileID: 6703389745689216700}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706589456223394948
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6703374356397818702}
-  m_Layer: 0
-  m_Name: Lauren_RightHandIndex3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6703374356397818702
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706589456223394948}
-  m_LocalRotation: {x: 0.74612206, y: -0.41518477, z: -0.44899094, w: 0.2633074}
-  m_LocalPosition: {x: 0.0220519, y: -0.009965092, z: -0.003395456}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6703594923515894472}
-  m_Father: {fileID: 6703206007701062120}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706630246836333946
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6708131796207520056}
-  m_Layer: 0
-  m_Name: Lauren_RightHandThumb4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6708131796207520056
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706630246836333946}
-  m_LocalRotation: {x: 0, y: 0, z: 0.08507059, w: 0.99637496}
-  m_LocalPosition: {x: -0.025313113, y: 0.010079727, z: 0.0014952248}
+  m_GameObject: {fileID: 1117549872075803488}
+  m_LocalRotation: {x: -0.43556327, y: 0.86401254, z: 0.14917849, w: -0.20374702}
+  m_LocalPosition: {x: 0.019560676, y: -0.0017733496, z: -0.015077044}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6703096164360342722}
+  m_Father: {fileID: 1119304107891085720}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706635464139350466
+--- !u!1 &1117561184329439910
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1380,30 +1076,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703088535855914138}
+  - component: {fileID: 1123585292363192912}
   m_Layer: 0
-  m_Name: Lauren_RightForeArm
+  m_Name: Lauren_LeftHandPinky3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703088535855914138
+--- !u!4 &1123585292363192912
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706635464139350466}
-  m_LocalRotation: {x: 0, y: 0, z: 0.0019219929, w: 0.99999815}
-  m_LocalPosition: {x: 0.17878051, y: -0.24309182, z: -0.005017981}
+  m_GameObject: {fileID: 1117561184329439910}
+  m_LocalRotation: {x: 0, y: 0, z: -0.38936847, w: 0.9210821}
+  m_LocalPosition: {x: -0.005727986, y: -0.017719379, z: -0.0033018386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708566901247691896}
-  m_Father: {fileID: 6708340806608189076}
+  - {fileID: 1119207777571469958}
+  m_Father: {fileID: 1123239742954610726}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706699076957180850
+--- !u!1 &1117574257407352546
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1411,7 +1107,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708629508578842884}
+  - component: {fileID: 1119246237453608972}
+  m_Layer: 0
+  m_Name: Lauren_RightFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1119246237453608972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117574257407352546}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0069451956, y: -0.4164997, z: -0.055762943}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1119146762642191136}
+  m_Father: {fileID: 1119475877000535696}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117625782107799696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119627202999618086}
   m_Layer: 0
   m_Name: Lauren_RightHandRing4
   m_TagString: Untagged
@@ -1419,21 +1146,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708629508578842884
+--- !u!4 &1119627202999618086
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706699076957180850}
+  m_GameObject: {fileID: 1117625782107799696}
   m_LocalRotation: {x: -0.43556327, y: 0.86401254, z: 0.14917849, w: -0.20374702}
   m_LocalPosition: {x: 0.016100865, y: -0.00046272992, z: -0.009277824}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6703061999211676656}
+  m_Father: {fileID: 1123206805268009170}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706716288623641912
+--- !u!1 &1117632228096193248
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1441,30 +1168,153 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703531111979105456}
+  - component: {fileID: 1123162666514042808}
   m_Layer: 0
-  m_Name: Lauren_LeftHandMiddle1
+  m_Name: Lauren_RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703531111979105456
+--- !u!4 &1123162666514042808
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706716288623641912}
-  m_LocalRotation: {x: 0, y: 0, z: -0.031660367, w: 0.9994987}
-  m_LocalPosition: {x: -0.07062521, y: -0.10555087, z: -0.0047699763}
+  m_GameObject: {fileID: 1117632228096193248}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0019219929, w: 0.99999815}
+  m_LocalPosition: {x: 0.17878051, y: -0.24309182, z: -0.005017981}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6703101232122926986}
-  m_Father: {fileID: 6703094713087598060}
+  - {fileID: 1119707394204262234}
+  m_Father: {fileID: 1119339769717908918}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117699000887311960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119271702930414106}
+  m_Layer: 0
+  m_Name: Lauren_RightHandThumb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1119271702930414106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117699000887311960}
+  m_LocalRotation: {x: 0, y: 0, z: 0.08507059, w: 0.99637496}
+  m_LocalPosition: {x: -0.025313113, y: 0.010079727, z: 0.0014952248}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1123172631547797472}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117705024888142610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119146762642191136}
+  m_Layer: 0
+  m_Name: Lauren_RightFootIndex1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1119146762642191136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117705024888142610}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.004479692, y: -0.089619756, z: 0.08878811}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1119669589185411168}
+  m_Father: {fileID: 1119246237453608972}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117708066271670972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123360785330298084}
+  m_Layer: 0
+  m_Name: Lauren_LeftHandPinky1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123360785330298084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117708066271670972}
+  m_LocalRotation: {x: 0, y: 0, z: -0.031660367, w: 0.9994987}
+  m_LocalPosition: {x: -0.045735613, y: -0.10157367, z: -0.048925605}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1123239742954610726}
+  m_Father: {fileID: 1123169666232028878}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117717711601450898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123402275059658240}
+  m_Layer: 0
+  m_Name: Lauren_RightHandMiddle1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123402275059658240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117717711601450898}
+  m_LocalRotation: {x: 0, y: 0, z: 0.09967674, w: 0.9950199}
+  m_LocalPosition: {x: 0.07285465, y: -0.104024544, z: -0.0047699763}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1123387572894230492}
+  m_Father: {fileID: 1119707394204262234}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706718247905232088
+--- !u!1 &1117720285275798398
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1472,92 +1322,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703101232122926986}
+  - component: {fileID: 1123151405784518992}
   m_Layer: 0
-  m_Name: Lauren_LeftHandMiddle2
+  m_Name: Lauren_LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703101232122926986
+--- !u!4 &1123151405784518992
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706718247905232088}
-  m_LocalRotation: {x: 0.00002004259, y: -0.00015418253, z: 0.12890802, w: 0.99165654}
-  m_LocalPosition: {x: -0.01155137, y: -0.039983083, z: -0.0026290196}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6703389749157620184}
-  m_Father: {fileID: 6703531111979105456}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706718414482723670
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6708211414029626234}
-  m_Layer: 0
-  m_Name: Lauren_RightHandPinky2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6708211414029626234
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706718414482723670}
-  m_LocalRotation: {x: -0.034549218, y: -0.08001853, z: -0.39483443, w: 0.9146088}
-  m_LocalPosition: {x: -0.00086985197, y: -0.03172361, z: -0.0038125431}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6708251644249302622}
-  m_Father: {fileID: 6703394926011545072}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706726980730851218
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6708477353516846514}
-  m_Layer: 0
-  m_Name: Lauren_RightLeg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6708477353516846514
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706726980730851218}
+  m_GameObject: {fileID: 1117720285275798398}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00342994, y: -0.4374139, z: 0.0032372896}
+  m_LocalPosition: {x: 0.0069451956, y: -0.4164997, z: -0.055762943}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708179235015424814}
-  m_Father: {fileID: 6708587843576153168}
+  - {fileID: 1123189334083484248}
+  m_Father: {fileID: 1123463981544953246}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706748346256230604
+--- !u!1 &1117726614272135078
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1565,30 +1353,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708376469251834554}
+  - component: {fileID: 1123448592286978156}
   m_Layer: 0
-  m_Name: Lauren_RightHandMiddle3
+  m_Name: Lauren_RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708376469251834554
+--- !u!4 &1123448592286978156
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706748346256230604}
+  m_GameObject: {fileID: 1117726614272135078}
   m_LocalRotation: {x: 0.74612206, y: -0.41518477, z: -0.44899094, w: 0.2633074}
-  m_LocalPosition: {x: 0.025584467, y: -0.017285295, z: -0.0052248472}
+  m_LocalPosition: {x: 0.0220519, y: -0.009965092, z: -0.003395456}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708344699046699098}
-  m_Father: {fileID: 6703452977632474366}
+  - {fileID: 1123531472920463850}
+  m_Father: {fileID: 1123353049325818570}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706778597603853280
+--- !u!1 &1117764113596474968
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1596,100 +1384,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708340806608189076}
-  m_Layer: 0
-  m_Name: Lauren_RightArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6708340806608189076
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706778597603853280}
-  m_LocalRotation: {x: 0, y: 0, z: -0.00010115758, w: 1}
-  m_LocalPosition: {x: 0.07986552, y: -0.013511745, z: -0.029902939}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6703088535855914138}
-  m_Father: {fileID: 6703118619723664750}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706795269022179816
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6703403693454872852}
-  m_Layer: 0
-  m_Name: Lauren_LeftUpLeg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6703403693454872852
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706795269022179816}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.102291726, y: -0.031919327, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6703389745689216700}
-  m_Father: {fileID: 6708196605646225108}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706796730404293816
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6703537156827457556}
-  m_Layer: 0
-  m_Name: Lauren_LeftHandThumb2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6703537156827457556
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706796730404293816}
-  m_LocalRotation: {x: 0, y: 0, z: 0.12890802, w: 0.99165654}
-  m_LocalPosition: {x: 0.001385504, y: -0.026028223, z: 0.018554186}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6703108753620478564}
-  m_Father: {fileID: 6703597982936226106}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706837821333403002
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6703389749157620184}
+  - component: {fileID: 1123463978067655418}
   m_Layer: 0
   m_Name: Lauren_LeftHandMiddle3
   m_TagString: Untagged
@@ -1697,22 +1392,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703389749157620184
+--- !u!4 &1123463978067655418
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706837821333403002}
+  m_GameObject: {fileID: 1117764113596474968}
   m_LocalRotation: {x: 0.0006760529, y: 0.002641799, z: -0.3888157, w: 0.9213115}
   m_LocalPosition: {x: -0.016212922, y: -0.026782455, z: -0.00069760944}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708550982875264856}
-  m_Father: {fileID: 6703101232122926986}
+  - {fileID: 1119688145114440826}
+  m_Father: {fileID: 1123176358777193640}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706846289479943542
+--- !u!1 &1117774951558762690
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1720,34 +1415,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708566901247691896}
+  - component: {fileID: 1119339769717908918}
   m_Layer: 0
-  m_Name: Lauren_RightHand
+  m_Name: Lauren_RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708566901247691896
+--- !u!4 &1119339769717908918
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706846289479943542}
-  m_LocalRotation: {x: 0, y: 0, z: -0.017398227, w: 0.99984866}
-  m_LocalPosition: {x: 0.16432914, y: -0.19114965, z: 0.016126275}
+  m_GameObject: {fileID: 1117774951558762690}
+  m_LocalRotation: {x: 0, y: 0, z: -0.00010115758, w: 1}
+  m_LocalPosition: {x: 0.07986552, y: -0.013511745, z: -0.029902939}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708213847950552656}
-  - {fileID: 6703398683400502562}
-  - {fileID: 6703394926011545072}
-  - {fileID: 6703115973184657132}
-  - {fileID: 6703333918331051960}
-  m_Father: {fileID: 6703088535855914138}
+  - {fileID: 1123162666514042808}
+  m_Father: {fileID: 1123123787635367500}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706858037888447326
+--- !u!1 &1117793480349184714
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1755,61 +1446,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708474082060905504}
+  - component: {fileID: 1123410441948152374}
   m_Layer: 0
-  m_Name: Lauren_RightHandThumb2
+  m_Name: Lauren_LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708474082060905504
+--- !u!4 &1123410441948152374
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706858037888447326}
-  m_LocalRotation: {x: 0, y: 0, z: -0.39639255, w: 0.91808116}
-  m_LocalPosition: {x: -0.004365027, y: -0.025696972, z: 0.018554186}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6703096164360342722}
-  m_Father: {fileID: 6703333918331051960}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706880180579650378
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6703114653702957434}
-  m_Layer: 0
-  m_Name: Lauren_LeftFootIndex1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6703114653702957434
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706880180579650378}
+  m_GameObject: {fileID: 1117793480349184714}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.004479692, y: -0.089619756, z: 0.08878811}
+  m_LocalPosition: {x: -0.102291726, y: -0.031919327, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6703588063280403232}
-  m_Father: {fileID: 6703148159266701938}
+  - {fileID: 1123463981544953246}
+  m_Father: {fileID: 1119193683236072950}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706900060636807608
+--- !u!1 &1117796417283055514
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1817,30 +1477,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708213847950552656}
+  - component: {fileID: 1123611248365583158}
   m_Layer: 0
-  m_Name: Lauren_RightHandIndex1
+  m_Name: Lauren_LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708213847950552656
+--- !u!4 &1123611248365583158
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706900060636807608}
-  m_LocalRotation: {x: 0, y: 0, z: 0.09967674, w: 0.9950199}
-  m_LocalPosition: {x: 0.0759756, y: -0.10298099, z: 0.017454596}
+  m_GameObject: {fileID: 1117796417283055514}
+  m_LocalRotation: {x: 0, y: 0, z: 0.12890802, w: 0.99165654}
+  m_LocalPosition: {x: 0.001385504, y: -0.026028223, z: 0.018554186}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6703206007701062120}
-  m_Father: {fileID: 6708566901247691896}
+  - {fileID: 1123182022571833670}
+  m_Father: {fileID: 1123532821497104920}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706908016795988366
+--- !u!1 &1117818404567849966
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1848,30 +1508,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708562401335212038}
+  - component: {fileID: 1119304107891085720}
   m_Layer: 0
-  m_Name: Lauren_LeftHandRing3
+  m_Name: Lauren_RightHandMiddle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708562401335212038
+--- !u!4 &1119304107891085720
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706908016795988366}
-  m_LocalRotation: {x: 0.0006760899, y: 0.0026419435, z: -0.3888157, w: 0.9213115}
-  m_LocalPosition: {x: -0.010173299, y: -0.025638709, z: -0.0014293591}
+  m_GameObject: {fileID: 1117818404567849966}
+  m_LocalRotation: {x: 0.74612206, y: -0.41518477, z: -0.44899094, w: 0.2633074}
+  m_LocalPosition: {x: 0.025584467, y: -0.017285295, z: -0.0052248472}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708540836779656568}
-  m_Father: {fileID: 6703126573060889082}
+  - {fileID: 1119340267559596920}
+  m_Father: {fileID: 1123387572894230492}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706923413094087408
+--- !u!1 &1117854860249568794
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1879,29 +1539,123 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703588063280403232}
+  - component: {fileID: 1123608504635535250}
   m_Layer: 0
-  m_Name: Lauren_LeftFootIndex2
+  m_Name: Lauren_LeftHandMiddle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703588063280403232
+--- !u!4 &1123608504635535250
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706923413094087408}
+  m_GameObject: {fileID: 1117854860249568794}
+  m_LocalRotation: {x: 0, y: 0, z: -0.031660367, w: 0.9994987}
+  m_LocalPosition: {x: -0.07062521, y: -0.10555087, z: -0.0047699763}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1123176358777193640}
+  m_Father: {fileID: 1123169666232028878}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117857124927651956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119209660383459416}
+  m_Layer: 0
+  m_Name: Lauren_RightHandPinky2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1119209660383459416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117857124927651956}
+  m_LocalRotation: {x: -0.034549218, y: -0.08001853, z: -0.39483443, w: 0.9146088}
+  m_LocalPosition: {x: -0.00086985197, y: -0.03172361, z: -0.0038125431}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1119178217665295740}
+  m_Father: {fileID: 1123472011712095954}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117857299799873530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123176358777193640}
+  m_Layer: 0
+  m_Name: Lauren_LeftHandMiddle2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123176358777193640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117857299799873530}
+  m_LocalRotation: {x: 0.00002004259, y: -0.00015418253, z: 0.12890802, w: 0.99165654}
+  m_LocalPosition: {x: -0.01155137, y: -0.039983083, z: -0.0026290196}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1123463978067655418}
+  m_Father: {fileID: 1123608504635535250}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117866168046984368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119475877000535696}
+  m_Layer: 0
+  m_Name: Lauren_RightLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1119475877000535696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117866168046984368}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.000023375915, y: -0.00066055066, z: 0.11530255}
+  m_LocalPosition: {x: 0.00342994, y: -0.4374139, z: 0.0032372896}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6703114653702957434}
+  m_Children:
+  - {fileID: 1119246237453608972}
+  m_Father: {fileID: 1119655666357622642}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706927296467609670
+--- !u!1 &1117886028122250368
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1909,37 +1663,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708550982875264856}
-  m_Layer: 0
-  m_Name: Lauren_LeftHandMiddle4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6708550982875264856
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706927296467609670}
-  m_LocalRotation: {x: 0.00922333, y: -0.017615344, z: 0.8245273, w: 0.5654727}
-  m_LocalPosition: {x: 0.008423749, y: -0.023283305, z: 0.000101287835}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6703389749157620184}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706957809029402530
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6708244946423804028}
+  - component: {fileID: 1119171722441253726}
   m_Layer: 0
   m_Name: Lauren_LeftForeArm
   m_TagString: Untagged
@@ -1947,22 +1671,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708244946423804028
+--- !u!4 &1119171722441253726
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706957809029402530}
+  m_GameObject: {fileID: 1117886028122250368}
   m_LocalRotation: {x: 0, y: 0, z: -0.0006095718, w: 0.9999998}
   m_LocalPosition: {x: -0.17874692, y: -0.24311653, z: -0.005017981}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6703094713087598060}
-  m_Father: {fileID: 6708547352276102022}
+  - {fileID: 1123169666232028878}
+  m_Father: {fileID: 1119687369061988516}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706963814473436750
+--- !u!1 &1117893199620545900
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1970,7 +1694,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703216420374453316}
+  - component: {fileID: 1123360229931585382}
   m_Layer: 0
   m_Name: Lauren_LeftShoulder
   m_TagString: Untagged
@@ -1978,22 +1702,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703216420374453316
+--- !u!4 &1123360229931585382
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706963814473436750}
+  m_GameObject: {fileID: 1117893199620545900}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.07, y: 0.19691208, z: 0.0061675096}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708547352276102022}
-  m_Father: {fileID: 6708332638622385168}
+  - {fileID: 1119687369061988516}
+  m_Father: {fileID: 1119330336931354418}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6707135992130040682
+--- !u!1 &1117920424040770002
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2001,29 +1725,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708600326181071682}
+  - component: {fileID: 1123520766739152898}
   m_Layer: 0
-  m_Name: Lauren_RightFootIndex2
+  m_Name: Lauren_LeftFootIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708600326181071682
+--- !u!4 &1123520766739152898
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6707135992130040682}
+  m_GameObject: {fileID: 1117920424040770002}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.000023375915, y: -0.00066055066, z: 0.11530255}
+  m_LocalPosition: {x: -0.000023375915, y: -0.00066055066, z: 0.11530255}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6708221534960574466}
+  m_Father: {fileID: 1123189334083484248}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6707157233388127384
+--- !u!1 &1117925336767609700
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2031,30 +1755,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703108753620478564}
+  - component: {fileID: 1119688145114440826}
   m_Layer: 0
-  m_Name: Lauren_LeftHandThumb3
+  m_Name: Lauren_LeftHandMiddle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703108753620478564
+--- !u!4 &1119688145114440826
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6707157233388127384}
-  m_LocalRotation: {x: 0, y: 0, z: -0.3888284, w: 0.9213102}
-  m_LocalPosition: {x: -0.006889552, y: -0.03581948, z: 0.007649001}
+  m_GameObject: {fileID: 1117925336767609700}
+  m_LocalRotation: {x: 0.00922333, y: -0.017615344, z: 0.8245273, w: 0.5654727}
+  m_LocalPosition: {x: 0.008423749, y: -0.023283305, z: 0.000101287835}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6708285057502379304}
-  m_Father: {fileID: 6703537156827457556}
+  m_Children: []
+  m_Father: {fileID: 1123463978067655418}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6707157887692395078
+--- !u!1 &1117970155388670618
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2062,122 +1785,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703206007701062120}
+  - component: {fileID: 1119211642762132850}
   m_Layer: 0
-  m_Name: Lauren_RightHandIndex2
+  m_Name: Lauren_RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703206007701062120
+--- !u!4 &1119211642762132850
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6707157887692395078}
-  m_LocalRotation: {x: -0.034548353, y: -0.0800189, z: -0.39488408, w: 0.9145873}
-  m_LocalPosition: {x: 0.008474751, y: -0.033259604, z: 0.0014339596}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6703374356397818702}
-  m_Father: {fileID: 6708213847950552656}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6707164773795629592
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6703115973184657132}
-  m_Layer: 0
-  m_Name: Lauren_RightHandRing1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6703115973184657132
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6707164773795629592}
+  m_GameObject: {fileID: 1117970155388670618}
   m_LocalRotation: {x: 0, y: 0, z: 0.09967674, w: 0.9950199}
-  m_LocalPosition: {x: 0.0649093, y: -0.10504193, z: -0.029719874}
+  m_LocalPosition: {x: 0.0759756, y: -0.10298099, z: 0.017454596}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708611243760676524}
-  m_Father: {fileID: 6708566901247691896}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6707188714374113194
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6708587843576153168}
-  m_Layer: 0
-  m_Name: Lauren_RightUpLeg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6708587843576153168
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6707188714374113194}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.102291726, y: -0.031919327, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6708477353516846514}
-  m_Father: {fileID: 6708196605646225108}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6707219925833355198
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6703397548638864060}
-  m_Layer: 0
-  m_Name: Lauren_LeftHandIndex4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6703397548638864060
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6707219925833355198}
-  m_LocalRotation: {x: -0.15633866, y: -0.78653735, z: -0.005228017, w: 0.59740263}
-  m_LocalPosition: {x: -0.00010270915, y: -0.023513393, z: 0.0073244083}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6708492220101354968}
+  - {fileID: 1123353049325818570}
+  m_Father: {fileID: 1119707394204262234}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6707262186560414384
+--- !u!1 &1117975394444354220
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2185,7 +1816,135 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703126573060889082}
+  - component: {fileID: 1119698700755790628}
+  m_Layer: 0
+  m_Name: Lauren_LeftHandRing3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1119698700755790628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117975394444354220}
+  m_LocalRotation: {x: 0.0006760899, y: 0.0026419435, z: -0.3888157, w: 0.9213115}
+  m_LocalPosition: {x: -0.010173299, y: -0.025638709, z: -0.0014293591}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1119680681829963354}
+  m_Father: {fileID: 1123133426751572696}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117984344942237268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119707394204262234}
+  m_Layer: 0
+  m_Name: Lauren_RightHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1119707394204262234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117984344942237268}
+  m_LocalRotation: {x: 0, y: 0, z: -0.017398227, w: 0.99984866}
+  m_LocalPosition: {x: 0.16432914, y: -0.19114965, z: 0.016126275}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1119211642762132850}
+  - {fileID: 1123402275059658240}
+  - {fileID: 1123472011712095954}
+  - {fileID: 1123122035053594062}
+  - {fileID: 1123480234001206426}
+  m_Father: {fileID: 1123162666514042808}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117994577361625212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119470369271725826}
+  m_Layer: 0
+  m_Name: Lauren_RightHandThumb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1119470369271725826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117994577361625212}
+  m_LocalRotation: {x: 0, y: 0, z: -0.39639255, w: 0.91808116}
+  m_LocalPosition: {x: -0.004365027, y: -0.025696972, z: 0.018554186}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1123172631547797472}
+  m_Father: {fileID: 1123480234001206426}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1118016415143385192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123189334083484248}
+  m_Layer: 0
+  m_Name: Lauren_LeftFootIndex1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123189334083484248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118016415143385192}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.004479692, y: -0.089619756, z: 0.08878811}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1123520766739152898}
+  m_Father: {fileID: 1123151405784518992}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1118188554425758098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123133426751572696}
   m_Layer: 0
   m_Name: Lauren_LeftHandRing2
   m_TagString: Untagged
@@ -2193,22 +1952,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703126573060889082
+--- !u!4 &1123133426751572696
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6707262186560414384}
+  m_GameObject: {fileID: 1118188554425758098}
   m_LocalRotation: {x: 0.000020043686, y: -0.00015419097, z: 0.12890802, w: 0.99165654}
   m_LocalPosition: {x: -0.004014262, y: -0.037934743, z: -0.0021095376}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6708562401335212038}
-  m_Father: {fileID: 6708574646977606762}
+  - {fileID: 1119698700755790628}
+  m_Father: {fileID: 1119642473852381000}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6707263780541104186
+--- !u!1 &1118191385352901400
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2216,7 +1975,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6708611243760676524}
+  - component: {fileID: 1119610276197989774}
   m_Layer: 0
   m_Name: Lauren_RightHandRing2
   m_TagString: Untagged
@@ -2224,18 +1983,202 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6708611243760676524
+--- !u!4 &1119610276197989774
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6707263780541104186}
+  m_GameObject: {fileID: 1118191385352901400}
   m_LocalRotation: {x: -0.034548353, y: -0.0800189, z: -0.39488408, w: 0.9145873}
   m_LocalPosition: {x: -0.0003681413, y: -0.038144767, z: -0.0021095376}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6703061999211676656}
-  m_Father: {fileID: 6703115973184657132}
+  - {fileID: 1123206805268009170}
+  m_Father: {fileID: 1123122035053594062}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1118217621827460252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123403402307146142}
+  m_Layer: 0
+  m_Name: Lauren_LeftHandIndex4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123403402307146142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118217621827460252}
+  m_LocalRotation: {x: -0.15633866, y: -0.78653735, z: -0.005228017, w: 0.59740263}
+  m_LocalPosition: {x: -0.00010270915, y: -0.023513393, z: 0.0073244083}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1119491804274587386}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1118233217199610170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123122035053594062}
+  m_Layer: 0
+  m_Name: Lauren_RightHandRing1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123122035053594062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118233217199610170}
+  m_LocalRotation: {x: 0, y: 0, z: 0.09967674, w: 0.9950199}
+  m_LocalPosition: {x: 0.0649093, y: -0.10504193, z: -0.029719874}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1119610276197989774}
+  m_Father: {fileID: 1119707394204262234}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1118257638243873928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119655666357622642}
+  m_Layer: 0
+  m_Name: Lauren_RightUpLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1119655666357622642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118257638243873928}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.102291726, y: -0.031919327, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1119475877000535696}
+  m_Father: {fileID: 1119193683236072950}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1118275183606915144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119669589185411168}
+  m_Layer: 0
+  m_Name: Lauren_RightFootIndex2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1119669589185411168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118275183606915144}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.000023375915, y: -0.00066055066, z: 0.11530255}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1119146762642191136}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1118293534456747962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123182022571833670}
+  m_Layer: 0
+  m_Name: Lauren_LeftHandThumb3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123182022571833670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118293534456747962}
+  m_LocalRotation: {x: 0, y: 0, z: -0.3888284, w: 0.9213102}
+  m_LocalPosition: {x: -0.006889552, y: -0.03581948, z: 0.007649001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1119421906846412298}
+  m_Father: {fileID: 1123611248365583158}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1118297251072885092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123353049325818570}
+  m_Layer: 0
+  m_Name: Lauren_RightHandIndex2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123353049325818570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118297251072885092}
+  m_LocalRotation: {x: -0.034548353, y: -0.0800189, z: -0.39488408, w: 0.9145873}
+  m_LocalPosition: {x: 0.008474751, y: -0.033259604, z: 0.0014339596}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1123448592286978156}
+  m_Father: {fileID: 1119211642762132850}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
