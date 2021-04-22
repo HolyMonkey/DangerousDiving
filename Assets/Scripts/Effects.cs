@@ -15,13 +15,13 @@ public class Effects : MonoBehaviour
 
         switch (stageNumber)
         {
-            case 1:
+            case 0:
                 _ten.Play();
                 break;
-            case 2:
+            case 1:
                 _fifty.Play();
                 break;
-            case 3:
+            case 2:
                 _hundred.Play();
                 break;
         }

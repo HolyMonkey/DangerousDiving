@@ -259,17 +259,17 @@ PrefabInstance:
     - target: {fileID: 6708617582549212072, guid: 93786cbda50fe23429a381fa4ff4db83,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6708617582549212072, guid: 93786cbda50fe23429a381fa4ff4db83,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.76
+      value: -4.47
       objectReference: {fileID: 0}
     - target: {fileID: 6708617582549212072, guid: 93786cbda50fe23429a381fa4ff4db83,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.31
       objectReference: {fileID: 0}
     - target: {fileID: 6708617582549212072, guid: 93786cbda50fe23429a381fa4ff4db83,
         type: 3}
@@ -1968,7 +1968,7 @@ PrefabInstance:
     - target: {fileID: 1119617130215147658, guid: 5aa6ef615f18d9e458fc00916431536f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1119617130215147658, guid: 5aa6ef615f18d9e458fc00916431536f,
         type: 3}
@@ -3240,7 +3240,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 63.856003, y: 180.838, z: 24.570002}
 --- !u!1001 &868504743
 PrefabInstance:
@@ -4063,18 +4063,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1082798821}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1087258872 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1087258872, guid: 060c0afbfb073a14185cf2aba16e029e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1069170480}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2991e5f3769bcc4a8522891091ad426, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1087383652 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1069170482, guid: 060c0afbfb073a14185cf2aba16e029e,
@@ -6495,17 +6483,17 @@ PrefabInstance:
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _repeatTriggerName
-      value: Two
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _dollyAnimationName
-      value: pose2
+      value: pose4
       objectReference: {fileID: 0}
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _stageAnimationName
-      value: translateTwo
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5480721716365788836, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
@@ -6520,7 +6508,7 @@ PrefabInstance:
     - target: {fileID: 9022726110708342866, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.9
+      value: 9.34
       objectReference: {fileID: 0}
     - target: {fileID: 9022726110708342866, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
@@ -8133,17 +8121,17 @@ PrefabInstance:
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _repeatTriggerName
-      value: Three
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _dollyAnimationName
-      value: pose3
+      value: poseEnter
       objectReference: {fileID: 0}
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _stageAnimationName
-      value: translateThree
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5480721716365788836, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
@@ -8158,7 +8146,7 @@ PrefabInstance:
     - target: {fileID: 9022726110708342866, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.9
+      value: 11.78
       objectReference: {fileID: 0}
     - target: {fileID: 9022726110708342866, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
@@ -8490,6 +8478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2129423704}
   - component: {fileID: 2129423703}
+  - component: {fileID: 2129423705}
   m_Layer: 0
   m_Name: Game
   m_TagString: Untagged
@@ -8511,7 +8500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _waterEnter: {fileID: 1668968298}
   _water: {fileID: 629906178}
-  _character: {fileID: 1087258872}
+  _character: {fileID: 353975948}
   _stages: {fileID: 1664566536}
   _startJump: {fileID: 11400000, guid: 94c4d0a5158271d4ba4b1a0aaf4e6f42, type: 2}
   _repeatStarted: {fileID: 11400000, guid: a8d7180479af1d34bab2df52fa6743f2, type: 2}
@@ -8529,8 +8518,21 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2129423705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129423702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b16d223f003e546bceca986f9cfaab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dolly: {fileID: 453654929}
 --- !u!1001 &2142537154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8799,17 +8801,17 @@ PrefabInstance:
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _repeatTriggerName
-      value: One
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _dollyAnimationName
-      value: pose1
+      value: pose3
       objectReference: {fileID: 0}
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _stageAnimationName
-      value: translateOne
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5480721716365788836, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}

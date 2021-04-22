@@ -88,7 +88,7 @@ public class Character : MonoBehaviour
     {
         if (other.TryGetComponent(out Springboard board))
         {
-            _currentSpeed = 3;
+            _currentSpeed = 1.5f;
             _rigidbody.AddForce(Vector3.up * _force, ForceMode.Impulse);
             _animator.SetTrigger("Jump");
         }
@@ -139,6 +139,7 @@ public class Character : MonoBehaviour
     {
         Pause();
         _isStage = true;
+        _isMove = false;
         _stageReached.Raise();
         _slider.interactable = true;
         ShowDolly();
@@ -148,6 +149,7 @@ public class Character : MonoBehaviour
     public void EndInteract()
     {
         _isStage = false;
+        _isMove = true;
         HideDolly();
         _animator.Play(_currentStage.DollyAnimationName);
         _wind.Play();
