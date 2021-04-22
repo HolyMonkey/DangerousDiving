@@ -7914,7 +7914,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2002646520}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -4.709999, y: 2.3049998, z: 11.5}
+  m_LocalPosition: {x: -4.709999, y: 2.3049998, z: 9.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 265479179}
@@ -7965,9 +7965,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _character: {fileID: 353975951}
-  _offsetY: 2.3
+  _offsetY: 1.8
   _speed: 20
-  _closePoint: {x: 10, y: 4.5}
+  _closePoint: {x: 3.5, y: 3}
   _cameraReady: {fileID: 11400000, guid: c00e8c19d1035b247abfc519da174247, type: 2}
 --- !u!1 &2034407059
 GameObject:

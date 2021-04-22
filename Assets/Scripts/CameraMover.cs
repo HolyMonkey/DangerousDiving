@@ -43,10 +43,16 @@ public class CameraMover : MonoBehaviour
     public void OnReachStage()
     {
         _currentPoint = transform.position;
-        Vector3 target = new Vector3(_closePoint.x, _character.transform.position.y + _offsetY, _closePoint.y);
+        Vector3 target = GetClosePointPosition();
         _ismove = false;
         _currentDirection = Direction.ZoomIn;
         StartCoroutine(Flyer(target));
+    }
+
+    private Vector3 GetClosePointPosition()
+    {
+        //return new Vector3(_closePoint.x, _character.transform.position.y + _offsetY, _closePoint.y);
+        return _character.position + new Vector3(_closePoint.x, _offsetY, _closePoint.y);
     }
 
     public void OnStageFinish()
@@ -60,7 +66,7 @@ public class CameraMover : MonoBehaviour
         while (Vector3.Distance(transform.position, target) > 0.05)
         {
             transform.position = Vector3.MoveTowards(transform.position, target, _speed * Time.deltaTime);
-            transform.LookAt(_character);
+            transform.LookAt(_character.position + Vector3.up * _offsetY);
             yield return null;
         }
         transform.position = target;
