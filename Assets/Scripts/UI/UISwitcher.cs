@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using DG.Tweening;
 
 public class UISwitcher : MonoBehaviour
 {
@@ -12,6 +11,7 @@ public class UISwitcher : MonoBehaviour
     [SerializeField] private GameObject _finishPanell;
     [SerializeField] private GameObject _repeatPanel;
     [SerializeField] private GameObject _choicePanel;
+    [SerializeField] private GameObject _stagePanel;
     [SerializeField] private Game _game;
 
     private Slider _sliderComponent;
@@ -34,7 +34,7 @@ public class UISwitcher : MonoBehaviour
     {
         //_sliderComponent.interactable = true;
         //_slider.DOScale(Vector3.one, .3f).SetEase(Ease.OutBack);
-        _joystick.DOScale(Vector3.one, .3f).SetEase(Ease.OutBack);
+        _stagePanel.SetActive(true);
     }
 
     public void OnStageFinish()
@@ -42,7 +42,7 @@ public class UISwitcher : MonoBehaviour
         //_sliderComponent.interactable = false;
         //_sliderComponent.value = 0;
         //_slider.DOScale(Vector3.zero, .3f).SetEase(Ease.InBack);
-        _joystick.DOScale(Vector3.zero, .3f).SetEase(Ease.InBack);
+        //_stagePanel.SetActive(false);
     }
 
     public void OnWaterEnter()

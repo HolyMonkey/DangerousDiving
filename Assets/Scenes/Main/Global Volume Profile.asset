@@ -24,7 +24,7 @@ MonoBehaviour:
     max: 1
   response:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
     min: 0
     max: 1
   texture:
@@ -124,11 +124,11 @@ MonoBehaviour:
   m_AdvancedMode: 0
   threshold:
     m_OverrideState: 1
-    m_Value: 0.8
+    m_Value: 0.95
     min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 1.11
+    m_Value: 0.75
     min: 0
   scatter:
     m_OverrideState: 1

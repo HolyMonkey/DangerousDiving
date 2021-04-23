@@ -96,6 +96,6 @@ public class CameraMover : MonoBehaviour
 
     public void OnRepeatStart()
     {
-        transform.position -= Vector3.one * 3f; ;
+        transform.position -= Vector3.one * 3f;
     }
 }

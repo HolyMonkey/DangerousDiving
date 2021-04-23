@@ -130,7 +130,7 @@ public class Character : MonoBehaviour
     {
         Time.timeScale = 0.7f;
         _grain.intensity.value = 0.5f;
-        _grain.response.value = 0.75f;
+        //_grain.response.value = 0.75f;
     }
 
     #region Decomposite
