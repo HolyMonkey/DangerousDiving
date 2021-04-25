@@ -481,7 +481,7 @@ MonoBehaviour:
   _dolly: {fileID: 0}
   _game: {fileID: 0}
   _wind: {fileID: 0}
-  _effects: {fileID: 0}
+  _effects: {fileID: 8443487835677162413}
   _volume: {fileID: 0}
 --- !u!1 &6706330462635073898
 GameObject:
@@ -2257,6 +2257,11 @@ PrefabInstance:
       propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2569864962604533518, guid: 7aab91efaed31d9408f7a4d8e9c8aaaf,
+        type: 3}
+      propertyPath: _stars
+      value: 
+      objectReference: {fileID: 2008002659413035171}
     - target: {fileID: 3996191163545716720, guid: 7aab91efaed31d9408f7a4d8e9c8aaaf,
         type: 3}
       propertyPath: m_Name
@@ -2267,7 +2272,42 @@ PrefabInstance:
       propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5573607121326449700, guid: 7aab91efaed31d9408f7a4d8e9c8aaaf,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5573607121326467038, guid: 7aab91efaed31d9408f7a4d8e9c8aaaf,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5573607121326473164, guid: 7aab91efaed31d9408f7a4d8e9c8aaaf,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5573607121326502912, guid: 7aab91efaed31d9408f7a4d8e9c8aaaf,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5573607121326525422, guid: 7aab91efaed31d9408f7a4d8e9c8aaaf,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5573607121326525422, guid: 7aab91efaed31d9408f7a4d8e9c8aaaf,
+        type: 3}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5573607121326525422, guid: 7aab91efaed31d9408f7a4d8e9c8aaaf,
+        type: 3}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5573607121326540686, guid: 7aab91efaed31d9408f7a4d8e9c8aaaf,
         type: 3}
       propertyPath: playOnAwake
       value: 0
@@ -2417,6 +2457,24 @@ PrefabInstance:
 --- !u!4 &4431160925556193216 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7780549449256029027, guid: 7aab91efaed31d9408f7a4d8e9c8aaaf,
+    type: 3}
+  m_PrefabInstance: {fileID: 6234307767228333219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8443487835677162413 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2569864962604533518, guid: 7aab91efaed31d9408f7a4d8e9c8aaaf,
+    type: 3}
+  m_PrefabInstance: {fileID: 6234307767228333219}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61354b189945f14680a7c7af13dabae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!198 &2008002659413035171 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5573607121326502912, guid: 7aab91efaed31d9408f7a4d8e9c8aaaf,
     type: 3}
   m_PrefabInstance: {fileID: 6234307767228333219}
   m_PrefabAsset: {fileID: 0}

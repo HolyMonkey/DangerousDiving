@@ -9,6 +9,7 @@ public class CameraMover : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private Vector2 _closePoint;
     [SerializeField] private GameEvent _cameraReady;
+    [SerializeField] private Transform _cameraPoints;
 
     private float _smoothSpeed = 0.5f;
     private bool _ismove = true;
@@ -21,6 +22,13 @@ public class CameraMover : MonoBehaviour
     { 
         ZoomIn,
         ZoomOut
+    }
+
+    private enum CameraPoint
+    { 
+        Front,
+        Top,
+        Side
     }
 
     private Direction _currentDirection;
