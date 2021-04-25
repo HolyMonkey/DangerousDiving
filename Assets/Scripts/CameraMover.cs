@@ -9,11 +9,12 @@ public class CameraMover : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private Vector2 _closePoint;
     [SerializeField] private GameEvent _cameraReady;
-    [SerializeField] private Transform _cameraPoints;
+    [SerializeField] private CameraPoints _cameraPoints;
+    [SerializeField] private IKPanel _ikPanel;
 
     private float _smoothSpeed = 0.5f;
     private bool _ismove = true;
-    private Vector3 _currentPoint;
+    private Vector3 _zoomOutPoint;
     private Vector3 _originPosition;
 
     public event UnityAction<Transform> CameraReachedViewPoint;
@@ -24,14 +25,17 @@ public class CameraMover : MonoBehaviour
         ZoomOut
     }
 
-    private enum CameraPoint
-    { 
-        Front,
-        Top,
-        Side
+    private Direction _currentDirection;
+
+    private void OnEnable()
+    {
+        _ikPanel.CameraButtonClicked += OnChangePositionButtonClicked;
     }
 
-    private Direction _currentDirection;
+    private void OnDisable()
+    {
+        _ikPanel.CameraButtonClicked -= OnChangePositionButtonClicked;
+    }
 
     private void Start()
     {
@@ -48,10 +52,17 @@ public class CameraMover : MonoBehaviour
         transform.position = smoothedPosition;
     }
 
+    private void OnChangePositionButtonClicked(CameraPoint cameraPoint)
+    {
+        Vector3 target = _cameraPoints.GetPoint(cameraPoint).position;
+        StartCoroutine(Flyer(target));
+    }
+
     public void OnReachStage()
     {
-        _currentPoint = transform.position;
-        Vector3 target = GetClosePointPosition();
+        _zoomOutPoint = transform.position;
+        //Vector3 target = GetClosePointPosition();
+        Vector3 target = _cameraPoints.GetPoint(CameraPoint.Front).position;
         _ismove = false;
         _currentDirection = Direction.ZoomIn;
         StartCoroutine(Flyer(target));
@@ -66,7 +77,7 @@ public class CameraMover : MonoBehaviour
     public void OnStageFinish()
     {
         _currentDirection = Direction.ZoomOut;
-        StartCoroutine(Flyer(_currentPoint));
+        StartCoroutine(Flyer(_zoomOutPoint));
     }
 
     private IEnumerator Flyer(Vector3 target)
@@ -106,4 +117,11 @@ public class CameraMover : MonoBehaviour
     {
         transform.position -= Vector3.one * 3f;
     }
+}
+
+public enum CameraPoint
+{
+    Front,
+    Top,
+    Side
 }

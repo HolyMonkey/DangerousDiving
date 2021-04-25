@@ -75,7 +75,7 @@ public class Character : MonoBehaviour
 
     public void OnStartJump()
     {
-        //_isMove = true;
+        _isMove = true;
         //_animator.SetTrigger("Run");
     }
 

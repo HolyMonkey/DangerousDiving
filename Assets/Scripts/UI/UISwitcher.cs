@@ -34,7 +34,7 @@ public class UISwitcher : MonoBehaviour
     {
         //_sliderComponent.interactable = true;
         //_slider.DOScale(Vector3.one, .3f).SetEase(Ease.OutBack);
-        _stagePanel.SetActive(true);
+        //_stagePanel.SetActive(true);
     }
 
     public void OnStageFinish()
