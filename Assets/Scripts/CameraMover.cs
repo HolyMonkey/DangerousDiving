@@ -9,6 +9,7 @@ public class CameraMover : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private Vector2 _closePoint;
     [SerializeField] private GameEvent _cameraReady;
+    [SerializeField] private GameEvent _cameraReachedViewPoint;
     [SerializeField] private CameraPoints _cameraPoints;
     [SerializeField] private IKPanel _ikPanel;
 
@@ -98,6 +99,7 @@ public class CameraMover : MonoBehaviour
         else if (_currentDirection == Direction.ZoomIn)
         {
             CameraReachedViewPoint?.Invoke(transform);
+            _cameraReachedViewPoint.Raise();
         }
     }
 

@@ -8,7 +8,7 @@ using System.Collections;
 public class Character : MonoBehaviour
 {
     [SerializeField] private float _speed;
-    [SerializeField] private Slider _slider;
+    //[SerializeField] private Slider _slider;
     [SerializeField] private FixedJoystick _joytick;
     [SerializeField] private float _force;
     [SerializeField] private GameEvent _stageReached;
@@ -19,6 +19,7 @@ public class Character : MonoBehaviour
     [SerializeField] private ParticleSystem _wind;
     [SerializeField] private Effects _effects;
     [SerializeField] private Volume _volume;
+    [SerializeField] private Effectors _effectors;
 
     private float _currentSpeed;
     private bool _isMove;
@@ -28,6 +29,7 @@ public class Character : MonoBehaviour
     private bool _isStage;
     private Stage _currentStage;
     private Vector3 _originPosition;
+    private Dolly _dollyComponent;
     
     private FilmGrain _grain;
 
@@ -38,6 +40,7 @@ public class Character : MonoBehaviour
         _originPosition = transform.position;
         _currentSpeed = _speed;
         _volume.profile.TryGet<FilmGrain>(out _grain);
+        _dollyComponent = _dolly.GetComponent<Dolly>();
     }
 
     private void Update()
@@ -99,7 +102,6 @@ public class Character : MonoBehaviour
             if (_game.GameMode == Mode.Play)
             {
                 stage.Hide();
-                
                 StartInteract();
             }
             else if (_game.GameMode == Mode.Repeat)
@@ -133,6 +135,8 @@ public class Character : MonoBehaviour
         //_grain.response.value = 0.75f;
     }
 
+    
+
     #region Decomposite
 
     private void StartInteract()
@@ -140,9 +144,10 @@ public class Character : MonoBehaviour
         Pause();
         _isStage = true;
         _isMove = false;
-        _stageReached.Raise();
-        _slider.interactable = true;
+
+        _animator.enabled = false;
         ShowDolly();
+        _stageReached.Raise();
         _wind.Stop();
     }
 
@@ -169,9 +174,10 @@ public class Character : MonoBehaviour
 
     private void ShowDolly()
     {
-        _dolly.gameObject.SetActive(true);
         _dolly.position = transform.position;
+        _effectors.SetEffectorsInTargets();
         _dolly.GetComponent<Dolly>().PlayAnimation(_currentStage.DollyAnimationName);
+        _dolly.gameObject.SetActive(true);
     }
 
     private void HideDolly()
