@@ -1862,11 +1862,11 @@ MonoBehaviour:
     type: 3}
   _canvas: {fileID: 2034407063}
   _effectors:
-  - {fileID: 789012285}
-  - {fileID: 521511028}
-  - {fileID: 2092702593}
-  - {fileID: 478092822}
-  - {fileID: 1716048193}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &376036612
 GameObject:
   m_ObjectHideFlags: 0
@@ -2446,12 +2446,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 467931079}
   m_CullTransparentMesh: 0
---- !u!4 &478092822 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1559930013, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
-    type: 3}
-  m_PrefabInstance: {fileID: 72085976326437041}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &485739602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2814,12 +2808,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5f988cf6f4c04bb429b524e0b772048b,
     type: 3}
   m_PrefabInstance: {fileID: 521500755}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &521511028 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 31753467, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
-    type: 3}
-  m_PrefabInstance: {fileID: 72085976326437041}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &540366749
 GameObject:
@@ -3755,12 +3743,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5f988cf6f4c04bb429b524e0b772048b,
     type: 3}
   m_PrefabInstance: {fileID: 773156757}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &789012285 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 301673429, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
-    type: 3}
-  m_PrefabInstance: {fileID: 72085976326437041}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &800604647 stripped
 Transform:
@@ -8029,12 +8011,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1710967391}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1716048193 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1738226197, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
-    type: 3}
-  m_PrefabInstance: {fileID: 72085976326437041}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1721640698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9139,7 +9115,7 @@ Canvas:
   m_GameObject: {fileID: 2034407059}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 2002646522}
   m_PlaneDistance: 2
   m_PixelPerfect: 0
@@ -9392,12 +9368,6 @@ MonoBehaviour:
   _joystick: {fileID: 1840739120}
   _slowPanel: {fileID: 1571067809}
   _slowIcon: {fileID: 616651357}
---- !u!4 &2092702593 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1223483196, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
-    type: 3}
-  m_PrefabInstance: {fileID: 72085976326437041}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2093212969
 GameObject:
   m_ObjectHideFlags: 0
@@ -10006,30 +9976,6 @@ PrefabInstance:
       propertyPath: _rightHandTarget
       value: 
       objectReference: {fileID: 563933529}
-    - target: {fileID: 1841657143, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1841657143, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1841657143, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2038440226, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.3469
-      objectReference: {fileID: 0}
-    - target: {fileID: 2038440226, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.3469
-      objectReference: {fileID: 0}
-    - target: {fileID: 2038440226, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.3469
-      objectReference: {fileID: 0}
     - target: {fileID: 625664046803055079, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
         type: 3}
       propertyPath: _game
@@ -10055,36 +10001,31 @@ PrefabInstance:
       propertyPath: _joytick
       value: 
       objectReference: {fileID: 1840739121}
-    - target: {fileID: 5386143271133133409, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
+    - target: {fileID: 913251688976974487, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
         type: 3}
-      propertyPath: m_Enabled
+      propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5386143271133133409, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
+    - target: {fileID: 913251689038259937, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
         type: 3}
-      propertyPath: solver.effectors.Array.data[0].target
-      value: 
-      objectReference: {fileID: 789012285}
-    - target: {fileID: 5386143271133133409, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 913251689933312250, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
         type: 3}
-      propertyPath: solver.effectors.Array.data[5].target
-      value: 
-      objectReference: {fileID: 521511028}
-    - target: {fileID: 5386143271133133409, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 913251690579871404, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
         type: 3}
-      propertyPath: solver.effectors.Array.data[6].target
-      value: 
-      objectReference: {fileID: 478092822}
-    - target: {fileID: 5386143271133133409, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145491314277984435, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
         type: 3}
-      propertyPath: solver.effectors.Array.data[7].target
-      value: 
-      objectReference: {fileID: 2092702593}
-    - target: {fileID: 5386143271133133409, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
-        type: 3}
-      propertyPath: solver.effectors.Array.data[8].target
-      value: 
-      objectReference: {fileID: 1716048193}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6106788802865132268, guid: 5e5d92bc7ca59ef4a9ef3a9297905dde,
         type: 3}
       propertyPath: _camera
