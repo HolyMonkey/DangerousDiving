@@ -45,6 +45,7 @@ public class Character : MonoBehaviour
 
     private void Update()
     {
+        /*
         if (_isStage)
         {
             _animator.SetTrigger("StageEnter");
@@ -68,6 +69,7 @@ public class Character : MonoBehaviour
             _animator.SetFloat("BlendX", horizontal);
             _animator.SetFloat("BlendY", vertical);
         }
+        */
     }
 
     private void FixedUpdate()
@@ -89,7 +91,7 @@ public class Character : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent(out Springboard board))
+        if (other.TryGetComponent(out Jump jump))
         {
             _currentSpeed = 1.5f;
             _rigidbody.AddForce(Vector3.up * _force, ForceMode.Impulse);

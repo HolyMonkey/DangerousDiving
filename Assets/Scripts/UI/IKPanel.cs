@@ -17,12 +17,16 @@ public class IKPanel : MonoBehaviour
 
     public event UnityAction<CameraPoint> CameraButtonClicked;
 
+    private void Awake()
+    {
+        CreateControls();
+    }
+
     private void OnEnable()
     {
         _top.onClick.AddListener(delegate { OnButtonClick(CameraPoint.Top); });
         _front.onClick.AddListener(delegate { OnButtonClick(CameraPoint.Front); });
         _side.onClick.AddListener(delegate { OnButtonClick(CameraPoint.Side); });
-        CreateControls();
         ShowControls();
     }
 
@@ -50,11 +54,7 @@ public class IKPanel : MonoBehaviour
         foreach (IKControl control in _controls)
         {
             Vector3 screenPosition = camera.WorldToScreenPoint(control.Effector.position);
-
-            Vector2 anchoredPos;
-            RectTransformUtility.ScreenPointToLocalPointInRectangle(_canvas, screenPosition, camera, out anchoredPos);
-
-            control.GetComponent<RectTransform>().anchoredPosition = anchoredPos;
+            control.GetComponent<RectTransform>().position = screenPosition;
         }
     }
 
