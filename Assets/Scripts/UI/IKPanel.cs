@@ -37,6 +37,24 @@ public class IKPanel : MonoBehaviour
         _side.onClick.RemoveListener(delegate { OnButtonClick(CameraPoint.Side); });
     }
 
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            foreach (IKControl control in _controls)
+            {
+                if (control.Rect.Contains(Input.mousePosition))
+                {
+                    control.Activate();
+                }
+                else
+                {
+                    control.Deactivate();
+                }
+            }
+        }
+    }
+
     private void CreateControls()
     {
         foreach (Transform effector in _effectors)
@@ -62,4 +80,5 @@ public class IKPanel : MonoBehaviour
     {
         CameraButtonClicked?.Invoke(cameraPoint);
     }
+
 }
