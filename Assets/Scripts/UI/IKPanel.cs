@@ -76,6 +76,9 @@ public class IKPanel : MonoBehaviour
 
         foreach (IKControl control in _controls)
         {
+            if (!control.IsActive)
+                continue;
+            
             control.Deactivate();
         }
     }

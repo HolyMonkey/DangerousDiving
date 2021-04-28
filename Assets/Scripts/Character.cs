@@ -3,6 +3,7 @@ using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 using System.Collections;
+using RootMotion.FinalIK;
 
 [RequireComponent(typeof(Rigidbody))]
 public class Character : MonoBehaviour
@@ -20,6 +21,7 @@ public class Character : MonoBehaviour
     [SerializeField] private Effects _effects;
     [SerializeField] private Volume _volume;
     [SerializeField] private Effectors _effectors;
+    [SerializeField] private FullBodyBipedIK _ik;
 
     private float _currentSpeed;
     private bool _isMove;
@@ -41,35 +43,6 @@ public class Character : MonoBehaviour
         _currentSpeed = _speed;
         _volume.profile.TryGet<FilmGrain>(out _grain);
         _dollyComponent = _dolly.GetComponent<Dolly>();
-    }
-
-    private void Update()
-    {
-        /*
-        if (_isStage)
-        {
-            _animator.SetTrigger("StageEnter");
-
-            float spread = 0.05f;
-
-            float horizontal = _joytick.Horizontal;
-            float vertical = _joytick.Vertical;
-
-            if (horizontal > (_currentStage.JoyStickValues.x - spread) && vertical > (_currentStage.JoyStickValues.y - spread))
-            {
-                horizontal = 0;
-                vertical = 0;
-
-                _stageFinished.Raise();
-                _effects.PoseSetup(_currentStage.Index); 
-
-                EndInteract();
-            }
-
-            _animator.SetFloat("BlendX", horizontal);
-            _animator.SetFloat("BlendY", vertical);
-        }
-        */
     }
 
     private void FixedUpdate()
@@ -137,7 +110,13 @@ public class Character : MonoBehaviour
         //_grain.response.value = 0.75f;
     }
 
-    
+    private void ManageIK(bool flag)
+    {
+        if (flag)
+            _ik.solver.IKPositionWeight = 1;
+        else
+            _ik.solver.IKPositionWeight = 0;
+    }
 
     #region Decomposite
 
@@ -177,7 +156,8 @@ public class Character : MonoBehaviour
     private void ShowDolly()
     {
         _dolly.position = transform.position;
-        _effectors.SetEffectorsInTargets();
+        ManageIK(true);
+        _effectors.SetToTargetPositions();
         _dolly.GetComponent<Dolly>().PlayAnimation(_currentStage.DollyAnimationName);
         _dolly.gameObject.SetActive(true);
     }

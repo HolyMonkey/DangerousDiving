@@ -1,34 +1,53 @@
 ﻿using UnityEngine;
-using RootMotion.FinalIK;
 
 public class Effectors : MonoBehaviour
 {
-    [SerializeField] private FullBodyBipedIK _ik;
+    [SerializeField] private EffectorTargetPair[] _effectorTargetPairs;
+    [SerializeField] private GameEvent _stageFinished;
 
-    [Header("Efectors")]
-    [SerializeField] private Transform _body;
-    [SerializeField] private Transform _leftHand;
-    [SerializeField] private Transform _leftFoot;
-    [SerializeField] private Transform _rightHand;
-    [SerializeField] private Transform _rightFoot;
+    private int _efectorsDone;
 
-    [Header("Targets")]
-    [SerializeField] private Transform _bodyTarget;
-    [SerializeField] private Transform _leftHandTarget;
-    [SerializeField] private Transform _leftFootTarget;
-    [SerializeField] private Transform _rightHandTarget;
-    [SerializeField] private Transform _rightFootTarget;
-
-    public void SetEffectorsInTargets()
+    private void Awake()
     {
-        _ik.solver.IKPositionWeight = 1;
-
-        _body.position = _bodyTarget.position;
-        _leftHand.position = _leftHandTarget.position;
-        _leftFoot.position = _leftFootTarget.position;
-        _rightHand.position = _rightHandTarget.position;
-        _rightFoot.position = _rightFootTarget.position;
+        foreach (EffectorTargetPair pair in _effectorTargetPairs)
+        {
+            pair.Init();
+            pair.Effector.TargetMatch += OnEffectorReachTarget;
+        }
     }
 
+    public void SetToTargetPositions()
+    {
+        foreach (EffectorTargetPair pair in _effectorTargetPairs)
+        {
+            pair.SetToTargetPosition();
+        }
+    }
 
+    private void OnEffectorReachTarget()
+    {
+        if ((++_efectorsDone) == _effectorTargetPairs.Length)
+        {
+            _stageFinished.Raise();
+        }
+    }
+
+    [System.Serializable]
+    private class EffectorTargetPair
+    {
+        [SerializeField] private Effector _effector;
+        [SerializeField] private Transform _target;
+
+        public Effector Effector => _effector;
+
+        public void Init()
+        {
+            _effector.SetTarget(_target);
+        }
+
+        public void SetToTargetPosition()
+        {
+            _effector.transform.position = _target.position;
+        }
+    }
 }

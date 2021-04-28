@@ -7,6 +7,9 @@ public class IKControl : MonoBehaviour
     private RectTransform _rectTransform;
     private Transform _effector;
     private float _zCoord;
+    private bool _isActive = true;
+
+    public bool IsActive => _isActive;
 
     public Rect Rect => new Rect((Vector2) transform.position - (_rectTransform.rect.size * 0.5f), _rectTransform.rect.size);
     public Transform Effector => _effector;
@@ -19,6 +22,12 @@ public class IKControl : MonoBehaviour
     public void SetEffector(Transform effector)
     {
         _effector = effector;
+        _effector.GetComponent<Effector>().TargetMatch += OnEffectorDeactive;
+    }
+
+    private void OnEffectorDeactive()
+    {
+        Hide();
     }
 
     private Vector3 GetMousePosition()
@@ -36,6 +45,12 @@ public class IKControl : MonoBehaviour
         GetComponent<Image>().color = Color.white;
     }
 
+    public void Hide()
+    {
+        GetComponent<Image>().color = new Color(1,1,1,0);
+        _isActive = false; 
+    }
+
     public void Move(Vector2 mousePosition)
     {
         transform.position = mousePosition;
@@ -47,6 +62,7 @@ public class IKControl : MonoBehaviour
             GameObject effector = hit.collider.gameObject;
             _zCoord = Camera.main.WorldToScreenPoint(effector.transform.position).z;
             effector.transform.position = GetMousePosition();
+            effector.GetComponent<Effector>().DoMatching();
         }
     }
 }
