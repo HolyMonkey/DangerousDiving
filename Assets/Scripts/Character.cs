@@ -137,7 +137,8 @@ public class Character : MonoBehaviour
         _isStage = false;
         _isMove = true;
         HideDolly();
-        _animator.Play(_currentStage.DollyAnimationName);
+        //_animator.Play(_currentStage.DollyAnimationName);
+        _effects.PoseSetup(_currentStage.Index);
         _wind.Play();
     }
 

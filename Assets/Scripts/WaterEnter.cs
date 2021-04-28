@@ -4,7 +4,7 @@ public class WaterEnter : MonoBehaviour
 {
     private ParticleSystem[] _effects;
 
-    private void OnEnable()
+    public void OnEnable()
     {
         _effects = GetComponentsInChildren<ParticleSystem>();
 
