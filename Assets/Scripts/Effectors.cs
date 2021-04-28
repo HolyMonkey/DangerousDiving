@@ -32,6 +32,16 @@ public class Effectors : MonoBehaviour
         }
     }
 
+    public void OnStageReached()
+    {
+        _efectorsDone = 0;
+
+        foreach (EffectorTargetPair pair in _effectorTargetPairs)
+        {
+            pair.Effector.ResetEffector();
+        }
+    }
+
     [System.Serializable]
     private class EffectorTargetPair
     {

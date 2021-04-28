@@ -65,4 +65,10 @@ public class IKControl : MonoBehaviour
             effector.GetComponent<Effector>().DoMatching();
         }
     }
+
+    public void ResetControl()
+    {
+        Deactivate();
+        _isActive = true;
+    }
 }

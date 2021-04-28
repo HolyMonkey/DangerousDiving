@@ -113,4 +113,12 @@ public class IKPanel : MonoBehaviour
     {
         ShowControls();
     }
+
+    public void OnStageReached()
+    {
+        foreach (IKControl control in _controls)
+        {
+            control.ResetControl();
+        }
+    }
 }
