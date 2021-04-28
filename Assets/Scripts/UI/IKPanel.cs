@@ -14,6 +14,7 @@ public class IKPanel : MonoBehaviour
     [SerializeField] private Transform[] _effectors;
 
     private List<IKControl> _controls = new List<IKControl>();
+    private IKControl _selectedControl;
 
     public event UnityAction<CameraPoint> CameraButtonClicked;
 
@@ -27,7 +28,7 @@ public class IKPanel : MonoBehaviour
         _top.onClick.AddListener(delegate { OnButtonClick(CameraPoint.Top); });
         _front.onClick.AddListener(delegate { OnButtonClick(CameraPoint.Front); });
         _side.onClick.AddListener(delegate { OnButtonClick(CameraPoint.Side); });
-        ShowControls();
+        
     }
 
     private void OnDisable()
@@ -41,17 +42,41 @@ public class IKPanel : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            foreach (IKControl control in _controls)
+            Select();
+        }
+        else if (Input.GetMouseButtonUp(0))
+        {
+            Deselect();
+        }
+
+        if (Input.GetMouseButton(0))
+        {
+            if (_selectedControl != null)
             {
-                if (control.Rect.Contains(Input.mousePosition))
-                {
-                    control.Activate();
-                }
-                else
-                {
-                    control.Deactivate();
-                }
+                _selectedControl.Move(Input.mousePosition);
             }
+        }
+    }
+
+    private void Select()
+    {
+        foreach (IKControl control in _controls)
+        {
+            if (control.Rect.Contains(Input.mousePosition))
+            {
+                _selectedControl = control;
+                control.Activate();
+            }
+        }
+    }
+
+    private void Deselect()
+    {
+        _selectedControl = null;
+
+        foreach (IKControl control in _controls)
+        {
+            control.Deactivate();
         }
     }
 
@@ -81,4 +106,8 @@ public class IKPanel : MonoBehaviour
         CameraButtonClicked?.Invoke(cameraPoint);
     }
 
+    public void OnViewOintReach()
+    {
+        ShowControls();
+    }
 }

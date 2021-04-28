@@ -33,7 +33,7 @@ public class UISwitcher : MonoBehaviour
 
     public void OnCameraViePoinReach()
     {
-        _ikPanel.SetActive(true);
+        //_ikPanel.SetActive(true);
     }
 
     public void OnStageReached()
@@ -41,7 +41,7 @@ public class UISwitcher : MonoBehaviour
         //_sliderComponent.interactable = true;
         //_slider.DOScale(Vector3.one, .3f).SetEase(Ease.OutBack);
         //_stagePanel.SetActive(true);
-        
+        _ikPanel.SetActive(true);
     }
 
     public void OnStageFinish()

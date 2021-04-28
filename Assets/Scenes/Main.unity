@@ -1287,8 +1287,8 @@ MonoBehaviour:
   Response:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2034407064}
-        m_MethodName: OnCameraViePoinReach
+      - m_Target: {fileID: 374890994}
+        m_MethodName: OnViewOintReach
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
