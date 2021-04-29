@@ -30,6 +30,7 @@ public class Character : MonoBehaviour
     private Vector3 _savedVelocity;
     private Stage _currentStage;
     private Vector3 _originPosition;
+    private Quaternion _originRotation;
     private Dolly _dollyComponent;
     
     private FilmGrain _grain;
@@ -39,6 +40,7 @@ public class Character : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
         _animator = GetComponent<Animator>();
         _originPosition = transform.position;
+        _originRotation = transform.rotation;
         _currentSpeed = _speed;
         _volume.profile.TryGet<FilmGrain>(out _grain);
         _dollyComponent = _dolly.GetComponent<Dolly>();
@@ -92,8 +94,12 @@ public class Character : MonoBehaviour
 
     private void ResetGame()
     {
+        ManageIK(false);
+
+        CapsuleCollider collider = GetComponent<CapsuleCollider>();
+        collider.center = new Vector3(collider.center.x, 0.44f, collider.center.z);
+
         _waterEnter.Raise();
-        Debug.Log(transform.position);
         _isMove = false;
         _rigidbody.velocity = Vector3.zero;
         _animator.SetTrigger("Reset");
@@ -101,6 +107,12 @@ public class Character : MonoBehaviour
         _wind.Stop();
         _currentSpeed = _speed;
         transform.position = _originPosition;
+        transform.rotation = _originRotation;
+    }
+
+    public void OnLevelFinish()
+    {
+        _animator.enabled = true;
     }
 
     public void SetNoise()
