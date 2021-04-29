@@ -93,13 +93,14 @@ public class Character : MonoBehaviour
     private void ResetGame()
     {
         _waterEnter.Raise();
+        Debug.Log(transform.position);
         _isMove = false;
         _rigidbody.velocity = Vector3.zero;
-        transform.position = _originPosition;
         _animator.SetTrigger("Reset");
         _animator.ResetTrigger("StageEnter");
         _wind.Stop();
         _currentSpeed = _speed;
+        transform.position = _originPosition;
     }
 
     public void SetNoise()
@@ -128,6 +129,7 @@ public class Character : MonoBehaviour
         SetupCharacter();
         _stageReached.Raise();
         _wind.Stop();
+        _dolly.GetComponent<Dolly>().PlayAnimation(_currentStage.DollyAnimationName);
     }
 
     private void SetupCharacter()
@@ -164,7 +166,7 @@ public class Character : MonoBehaviour
     {
         _dolly.position = transform.position;
         _dolly.gameObject.SetActive(true);
-        _dolly.GetComponent<Dolly>().PlayAnimation(_currentStage.DollyAnimationName);
+        
     }
 
     private void HideDolly()

@@ -20,11 +20,13 @@ public class Effector : MonoBehaviour
             TargetMatch?.Invoke();
             transform.position = _target.position;
             gameObject.layer = 2;
+            GetComponent<SphereCollider>().enabled = false;
         }
     }
 
     public void ResetEffector()
     {
         gameObject.layer = 9;
+        GetComponent<SphereCollider>().enabled = true;
     }
 }
