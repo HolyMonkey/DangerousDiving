@@ -62,7 +62,7 @@ public class IKPanel : MonoBehaviour
     {
         foreach (IKControl control in _controls)
         {
-            if (control.Rect.Contains(Input.mousePosition))
+            if (control.Rect.Contains(Input.mousePosition) && control.IsActive)
             {
                 _selectedControl = control;
                 control.Activate();

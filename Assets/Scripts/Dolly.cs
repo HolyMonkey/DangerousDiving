@@ -20,4 +20,9 @@ public class Dolly : MonoBehaviour
     {
         _animator.Play(name);
     }
+
+    public void SetTrigger(string name)
+    {
+        _animator.SetTrigger(name);
+    }
 }

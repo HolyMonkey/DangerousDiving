@@ -28,7 +28,6 @@ public class Character : MonoBehaviour
     private Rigidbody _rigidbody;
     private Animator _animator;
     private Vector3 _savedVelocity;
-    private bool _isStage;
     private Stage _currentStage;
     private Vector3 _originPosition;
     private Dolly _dollyComponent;
@@ -123,19 +122,26 @@ public class Character : MonoBehaviour
     private void StartInteract()
     {
         Pause();
-        _isStage = true;
         _isMove = false;
-
         _animator.enabled = false;
         ShowDolly();
+        SetupCharacter();
         _stageReached.Raise();
         _wind.Stop();
     }
 
+    private void SetupCharacter()
+    {
+        if (_currentStage.Index != 0)
+            return;
+
+        ManageIK(true);
+        _effectors.SetToTargetPositions();
+    }
+
     public void EndInteract()
     {
-        _isStage = false;
-        _isMove = true;
+        //_isMove = true;
         HideDolly();
         //_animator.Play(_currentStage.DollyAnimationName);
         _effects.PoseSetup(_currentStage.Index);
@@ -157,10 +163,8 @@ public class Character : MonoBehaviour
     private void ShowDolly()
     {
         _dolly.position = transform.position;
-        ManageIK(true);
-        _effectors.SetToTargetPositions();
-        _dolly.GetComponent<Dolly>().PlayAnimation(_currentStage.DollyAnimationName);
         _dolly.gameObject.SetActive(true);
+        _dolly.GetComponent<Dolly>().PlayAnimation(_currentStage.DollyAnimationName);
     }
 
     private void HideDolly()

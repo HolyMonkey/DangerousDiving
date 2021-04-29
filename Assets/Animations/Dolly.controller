@@ -36,17 +36,14 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: -600779756417404155}
-    m_Position: {x: 310, y: 220, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: -9186283756173095900}
     m_Position: {x: 310, y: 300, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6221086330082510763}
-    m_Position: {x: -160, y: 320, z: 0}
+    m_Position: {x: -190, y: 380, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1495733255637484706}
-    m_Position: {x: -160, y: 400, z: 0}
+    m_Position: {x: -190, y: 450, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7397977302016888297}
     m_Position: {x: 310, y: 380, z: 0}
@@ -55,10 +52,10 @@ AnimatorStateMachine:
     m_Position: {x: 310, y: 470, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8177449370964898673}
-    m_Position: {x: -160, y: 480, z: 0}
+    m_Position: {x: 310, y: 210, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2239178336816141514}
-    m_Position: {x: 20, y: 220, z: 0}
+    m_Position: {x: 30, y: 230, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -121,32 +118,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-600779756417404155
-AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pose1
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 6b88fff4c9bee9848a03bb7d37c01d2a, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -155,7 +126,13 @@ AnimatorController:
   m_PrefabAsset: {fileID: 0}
   m_Name: Dolly
   serializedVersion: 5
-  m_AnimatorParameters: []
+  m_AnimatorParameters:
+  - m_Name: Next
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer

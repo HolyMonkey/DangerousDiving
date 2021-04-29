@@ -7658,7 +7658,7 @@ PrefabInstance:
     - target: {fileID: 9022726110708342866, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.34
+      value: 8.78
       objectReference: {fileID: 0}
     - target: {fileID: 9022726110708342866, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
@@ -9374,7 +9374,7 @@ PrefabInstance:
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: _dollyAnimationName
-      value: poseEnter
+      value: pose2
       objectReference: {fileID: 0}
     - target: {fileID: 4687655450742994568, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
@@ -9394,7 +9394,7 @@ PrefabInstance:
     - target: {fileID: 9022726110708342866, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.78
+      value: 9.22
       objectReference: {fileID: 0}
     - target: {fileID: 9022726110708342866, guid: 12790e7cb0a43f646a18c72260d38ad7,
         type: 3}
