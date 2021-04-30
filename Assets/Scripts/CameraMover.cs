@@ -17,6 +17,7 @@ public class CameraMover : MonoBehaviour
     private bool _ismove = true;
     private Vector3 _zoomOutPoint;
     private Vector3 _originPosition;
+    private bool _isRepeat;
 
     public event UnityAction<Transform> CameraReachedViewPoint;
 
@@ -49,6 +50,12 @@ public class CameraMover : MonoBehaviour
             return;
 
         Vector3 desiredPosition = new Vector3(_character.position.x, _character.position.y + _offsetY, transform.position.z);
+        transform.LookAt(_character.position + Vector3.up * _offsetY);
+
+        if (_isRepeat)
+            desiredPosition -= Vector3.left * 5;
+            
+        
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, _smoothSpeed);
         transform.position = smoothedPosition;
     }
@@ -117,7 +124,8 @@ public class CameraMover : MonoBehaviour
 
     public void OnRepeatStart()
     {
-        transform.position -= Vector3.one * 3f;
+        _isRepeat = true;
+        transform.position -= Vector3.one * 4f;
     }
 }
 
