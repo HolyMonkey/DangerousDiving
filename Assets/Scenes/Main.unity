@@ -1135,7 +1135,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2088249498}
+      - m_Target: {fileID: 374890994}
         m_MethodName: OnStageFinish
         m_Mode: 1
         m_Arguments:
@@ -1845,6 +1845,7 @@ RectTransform:
   - {fileID: 467931080}
   - {fileID: 1490094304}
   - {fileID: 384550222}
+  - {fileID: 1571067809}
   m_Father: {fileID: 2034407063}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1905,6 +1906,8 @@ MonoBehaviour:
   _top: {fileID: 467931081}
   _front: {fileID: 1490094305}
   _side: {fileID: 384550223}
+  _slowPanel: {fileID: 1571067809}
+  _slowIcon: {fileID: 616651357}
   _ikControlTemplate: {fileID: -3726015578438718778, guid: 0b251aed270704e4bb6cf0c1bbff80e0,
     type: 3}
   _canvas: {fileID: 2034407063}
@@ -2022,7 +2025,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &384550222
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7790,7 +7793,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1490094304
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8429,17 +8432,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571067808}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 616651357}
-  m_Father: {fileID: 2088249495}
-  m_RootOrder: 1
+  m_Father: {fileID: 374890991}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -266, y: 357}
+  m_AnchoredPosition: {x: -362, y: 503}
   m_SizeDelta: {x: 121.051575, y: 121.051575}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1571067810
@@ -10425,7 +10428,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1840739120}
-  - {fileID: 1571067809}
   m_Father: {fileID: 2034407063}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

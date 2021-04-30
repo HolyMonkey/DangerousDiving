@@ -2,12 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using DG.Tweening;
 
 public class IKPanel : MonoBehaviour
 {
+    //Deprecated
     [SerializeField] private Button _top;
     [SerializeField] private Button _front;
     [SerializeField] private Button _side;
+
+    [SerializeField] private RectTransform _slowPanel;
+    [SerializeField] private RectTransform _slowIcon;
     [SerializeField] private IKControl _ikControlTemplate;
     [SerializeField] private RectTransform _canvas;
     [Header("Efectors")]
@@ -21,6 +26,7 @@ public class IKPanel : MonoBehaviour
     private void Awake()
     {
         CreateControls();
+        _slowIcon.DOLocalRotate(new Vector3(0, 0, 180), 2f).SetLoops(-1, LoopType.Restart).SetEase(Ease.InOutBack);
     }
 
     private void OnEnable()
@@ -28,7 +34,7 @@ public class IKPanel : MonoBehaviour
         _top.onClick.AddListener(delegate { OnButtonClick(CameraPoint.Top); });
         _front.onClick.AddListener(delegate { OnButtonClick(CameraPoint.Front); });
         _side.onClick.AddListener(delegate { OnButtonClick(CameraPoint.Side); });
-        
+        _slowPanel.DOScale(Vector3.one, .7f).SetEase(Ease.OutBack);
     }
 
     private void OnDisable()
@@ -120,5 +126,13 @@ public class IKPanel : MonoBehaviour
         {
             control.ResetControl();
         }
+    }
+
+    public void OnStageFinish()
+    {
+        _slowPanel.DOScale(Vector3.zero, .5f).SetEase(Ease.InBack).OnComplete(() =>
+        {
+            gameObject.SetActive(false);
+        });
     }
 }

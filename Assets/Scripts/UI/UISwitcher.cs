@@ -50,7 +50,7 @@ public class UISwitcher : MonoBehaviour
         //_sliderComponent.value = 0;
         //_slider.DOScale(Vector3.zero, .3f).SetEase(Ease.InBack);
         //_stagePanel.SetActive(false);
-        _ikPanel.SetActive(false);
+        //_ikPanel.SetActive(false);
     }
 
     public void OnWaterEnter()
